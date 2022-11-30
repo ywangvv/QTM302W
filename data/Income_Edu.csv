@@ -1,0 +1,1531 @@
+Year,State,Median Income,High School Degree or Higher (% of State Pop),Bachelor's Degree or Higher (% of State Pop)
+2020,Alabama,54689,88,27.8
+2019,Alabama,56200,87.1,26.3
+2018,Alabama,49936,86.6,25.5
+2017,Alabama,51113,86.5,25.5
+2016,Alabama,47221,85.1,24.7
+2015,Alabama,44509,84.9,24.2
+2014,Alabama,42278,84.7,23.5
+2013,Alabama,47320,84.5,23.5
+2012,Alabama,43464,84,23.3
+2011,Alabama,42590,82.7,22.3
+2010,Alabama,40933,82.1,21.9
+2009,Alabama,39980,82.1,22
+2008,Alabama,44476,81.9,22
+2007,Alabama,42212,80.4,21.4
+2006,Alabama,37952,80.1,21.1
+2005,Alabama,37150,,
+2004,Alabama,36629,,
+2003,Alabama,37255,,
+2002,Alabama,37603,,
+2001,Alabama,35160,,
+2000,Alabama,35424,,
+1999,Alabama,36251,,
+1998,Alabama,36266,,
+1997,Alabama,31939,,
+1996,Alabama,30302,,
+1995,Alabama,25991,,
+1994,Alabama,27196,,
+1993,Alabama,25082,,
+1992,Alabama,25808,,
+1991,Alabama,24346,,
+2020,Alaska,74746,93.7,31.9
+2019,Alaska,78394,93.6,30.2
+2018,Alaska,68734,93.3,30.2
+2017,Alaska,72231,91.7,28.8
+2016,Alaska,75723,93.1,29.6
+2015,Alaska,75112,92.6,29.7
+2014,Alaska,67629,92.9,28
+2013,Alaska,72472,91.6,28
+2012,Alaska,63648,92,28
+2011,Alaska,57431,91.8,26.4
+2010,Alaska,57848,91,27.9
+2009,Alaska,61604,91.4,26.6
+2008,Alaska,63989,91.6,27.3
+2007,Alaska,62993,90.5,26
+2006,Alaska,56418,89.7,26.9
+2005,Alaska,55891,,
+2004,Alaska,55063,,
+2003,Alaska,51837,,
+2002,Alaska,52774,,
+2001,Alaska,57363,,
+2000,Alaska,52847,,
+1999,Alaska,51396,,
+1998,Alaska,50692,,
+1997,Alaska,47994,,
+1996,Alaska,52779,,
+1995,Alaska,47954,,
+1994,Alaska,45367,,
+1993,Alaska,42931,,
+1992,Alaska,41802,,
+1991,Alaska,40612,,
+2020,Arizona,67088,89.1,33
+2019,Arizona,70674,87.6,30.2
+2018,Arizona,62283,87.5,29.7
+2017,Arizona,61125,87.2,29.4
+2016,Arizona,57100,86.7,28.9
+2015,Arizona,52248,86.1,27.7
+2014,Arizona,49254,86.1,27.6
+2013,Arizona,52611,85.9,27.4
+2012,Arizona,47044,85.7,27.3
+2011,Arizona,48621,85.7,26.6
+2010,Arizona,46896,85.6,25.9
+2009,Arizona,45739,84.2,25.6
+2008,Arizona,46914,83.8,25.1
+2007,Arizona,47215,83.5,25.3
+2006,Arizona,46657,83.8,25.5
+2005,Arizona,45245,,
+2004,Arizona,43846,,
+2003,Arizona,41166,,
+2002,Arizona,39734,,
+2001,Arizona,42704,,
+2000,Arizona,39783,,
+1999,Arizona,36995,,
+1998,Arizona,37090,,
+1997,Arizona,32740,,
+1996,Arizona,31637,,
+1995,Arizona,30863,,
+1994,Arizona,31293,,
+1993,Arizona,30510,,
+1992,Arizona,29358,,
+1991,Arizona,30737,,
+2020,Arkansas,50777,88.2,24.9
+2019,Arkansas,54539,87.5,23.3
+2018,Arkansas,49781,87.2,23.3
+2017,Arkansas,48829,86.7,23.4
+2016,Arkansas,45907,86,22.4
+2015,Arkansas,42798,85.4,21.8
+2014,Arkansas,44922,85.3,21.4
+2013,Arkansas,39376,84.4,20.6
+2012,Arkansas,39018,84.8,21
+2011,Arkansas,41302,83.8,20.3
+2010,Arkansas,38587,82.9,19.5
+2009,Arkansas,36538,82.4,18.9
+2008,Arkansas,39586,82,18.8
+2007,Arkansas,40795,81.1,19.3
+2006,Arkansas,37057,80.5,18.2
+2005,Arkansas,36658,,
+2004,Arkansas,34984,,
+2003,Arkansas,32002,,
+2002,Arkansas,32387,,
+2001,Arkansas,33339,,
+2000,Arkansas,29697,,
+1999,Arkansas,29682,,
+1998,Arkansas,27665,,
+1997,Arkansas,26162,,
+1996,Arkansas,27123,,
+1995,Arkansas,25814,,
+1994,Arkansas,25565,,
+1993,Arkansas,23039,,
+1992,Arkansas,23882,,
+1991,Arkansas,23435,,
+2020,California,77652,84.4,36.9
+2019,California,78105,84,35
+2018,California,70489,83.8,34.2
+2017,California,69759,83.3,33.6
+2016,California,66637,82.4,32.9
+2015,California,63636,82.2,32.3
+2014,California,60487,82.1,31.7
+2013,California,60794,81.7,31
+2012,California,57020,81.5,30.9
+2011,California,53367,81.1,30.3
+2010,California,54283,80.7,30.1
+2009,California,56134,80.6,29.9
+2008,California,57014,80.2,29.6
+2007,California,55734,80.2,29.5
+2006,California,55319,80.1,29
+2005,California,51755,,
+2004,California,49222,,
+2003,California,49300,,
+2002,California,47437,,
+2001,California,47262,,
+2000,California,46816,,
+1999,California,43629,,
+1998,California,40934,,
+1997,California,39694,,
+1996,California,38812,,
+1995,California,37009,,
+1994,California,35331,,
+1993,California,34073,,
+1992,California,34903,,
+1991,California,33664,,
+2020,Colorado,83777,92.7,44.2
+2019,Colorado,72499,92.4,42.7
+2018,Colorado,73034,91.9,41.7
+2017,Colorado,74172,91.6,41.2
+2016,Colorado,70566,91.4,39.9
+2015,Colorado,66596,91.2,39.2
+2014,Colorado,60940,90.5,38.3
+2013,Colorado,67912,90.5,37.8
+2012,Colorado,57255,90.6,37.5
+2011,Colorado,58629,90.2,36.7
+2010,Colorado,60233,89.7,36.4
+2009,Colorado,55930,89.3,35.9
+2008,Colorado,60943,88.9,35.6
+2007,Colorado,61141,88.9,35
+2006,Colorado,55697,88,34.3
+2005,Colorado,50449,,
+2004,Colorado,50886,,
+2003,Colorado,49940,,
+2002,Colorado,48294,,
+2001,Colorado,49397,,
+2000,Colorado,48240,,
+1999,Colorado,48177,,
+1998,Colorado,46599,,
+1997,Colorado,43233,,
+1996,Colorado,40950,,
+1995,Colorado,40706,,
+1994,Colorado,37833,,
+1993,Colorado,34488,,
+1992,Colorado,32484,,
+1991,Colorado,31499,,
+2020,Connecticut,79432,91.6,42.4
+2019,Connecticut,87291,90.7,39.8
+2018,Connecticut,72812,90.9,39.6
+2017,Connecticut,72780,90.4,38.7
+2016,Connecticut,75923,90.5,38.6
+2015,Connecticut,72889,90.2,38.3
+2014,Connecticut,70161,90.1,38
+2013,Connecticut,69291,89.7,37.2
+2012,Connecticut,64247,89.9,37.1
+2011,Connecticut,65415,89.1,36.2
+2010,Connecticut,65998,88.6,35.5
+2009,Connecticut,64851,88.6,35.6
+2008,Connecticut,64682,88.6,35.6
+2007,Connecticut,64141,88,34.7
+2006,Connecticut,62404,88,33.7
+2005,Connecticut,56835,,
+2004,Connecticut,55100,,
+2003,Connecticut,54965,,
+2002,Connecticut,53387,,
+2001,Connecticut,53347,,
+2000,Connecticut,50172,,
+1999,Connecticut,50593,,
+1998,Connecticut,46508,,
+1997,Connecticut,43985,,
+1996,Connecticut,42119,,
+1995,Connecticut,40243,,
+1994,Connecticut,41097,,
+1993,Connecticut,39516,,
+1992,Connecticut,40841,,
+1991,Connecticut,42154,,
+2020,Delaware,70022,91,34.7
+2019,Delaware,74194,90.3,33.2
+2018,Delaware,65012,89.8,31.3
+2017,Delaware,62318,90.6,31.5
+2016,Delaware,58046,89.3,31
+2015,Delaware,57756,88.9,30.9
+2014,Delaware,57522,89,30.6
+2013,Delaware,54091,88.3,29.8
+2012,Delaware,48972,88.5,29.5
+2011,Delaware,54660,87,28.8
+2010,Delaware,55214,87.7,27.8
+2009,Delaware,52114,87.4,28.7
+2008,Delaware,50702,87.2,27.5
+2007,Delaware,54589,87.4,26.1
+2006,Delaware,52438,85.5,27
+2005,Delaware,51235,,
+2004,Delaware,48049,,
+2003,Delaware,49019,,
+2002,Delaware,49650,,
+2001,Delaware,49602,,
+2000,Delaware,50365,,
+1999,Delaware,46628,,
+1998,Delaware,41458,,
+1997,Delaware,43033,,
+1996,Delaware,39309,,
+1995,Delaware,34928,,
+1994,Delaware,35873,,
+1993,Delaware,36064,,
+1992,Delaware,35678,,
+1991,Delaware,32585,,
+2020,District of Columbia,88218,93.8,63.6
+2019,District of Columbia,93111,91.9,59.7
+2018,District of Columbia,85750,92.1,60.4
+2017,District of Columbia,83382,90.2,57.3
+2016,District of Columbia,70982,90.5,56.8
+2015,District of Columbia,70071,89.8,56.7
+2014,District of Columbia,68277,90.2,55
+2013,District of Columbia,60057,90.1,55.1
+2012,District of Columbia,65246,88.6,53
+2011,District of Columbia,55251,87.2,52.5
+2010,District of Columbia,56928,87.4,50.1
+2009,District of Columbia,53141,87.1,48.5
+2008,District of Columbia,55590,85.8,48.2
+2007,District of Columbia,50783,85.7,47.5
+2006,District of Columbia,48477,84.3,45.9
+2005,District of Columbia,44993,,
+2004,District of Columbia,43451,,
+2003,District of Columbia,45044,,
+2002,District of Columbia,39070,,
+2001,District of Columbia,41169,,
+2000,District of Columbia,41222,,
+1999,District of Columbia,38670,,
+1998,District of Columbia,33433,,
+1997,District of Columbia,31860,,
+1996,District of Columbia,31966,,
+1995,District of Columbia,30748,,
+1994,District of Columbia,30116,,
+1993,District of Columbia,27304,,
+1992,District of Columbia,30247,,
+1991,District of Columbia,29885,,
+2020,Florida,57763,89.6,33.7
+2019,Florida,58368,88.4,30.7
+2018,Florida,54644,88.5,30.4
+2017,Florida,53681,88.4,29.7
+2016,Florida,51176,87.4,28.6
+2015,Florida,48825,87.6,28.4
+2014,Florida,46140,87.2,27.3
+2013,Florida,48532,86.8,27.2
+2012,Florida,46071,86.5,26.8
+2011,Florida,45105,85.9,25.8
+2010,Florida,44066,85.5,25.8
+2009,Florida,45631,85.3,25.3
+2008,Florida,44857,85.2,25.8
+2007,Florida,45794,84.9,25.8
+2006,Florida,45676,84.5,25.3
+2005,Florida,42990,,
+2004,Florida,40535,,
+2003,Florida,38972,,
+2002,Florida,38024,,
+2001,Florida,36421,,
+2000,Florida,38856,,
+1999,Florida,35831,,
+1998,Florida,34909,,
+1997,Florida,32455,,
+1996,Florida,30641,,
+1995,Florida,29745,,
+1994,Florida,29294,,
+1993,Florida,28550,,
+1992,Florida,27349,,
+1991,Florida,27252,,
+2020,Georgia,59265,89.3,34.8
+2019,Georgia,56628,87.9,32.5
+2018,Georgia,55821,87.6,31.9
+2017,Georgia,57016,87,30.9
+2016,Georgia,53527,86.4,30.5
+2015,Georgia,50768,86.1,29.9
+2014,Georgia,49555,85.6,29.1
+2013,Georgia,46992,85.5,28.3
+2012,Georgia,48121,85,28.2
+2011,Georgia,45973,84.3,27.6
+2010,Georgia,44117,84.3,27.3
+2009,Georgia,43340,83.9,27.5
+2008,Georgia,46227,83.9,27.5
+2007,Georgia,48641,82.9,27.1
+2006,Georgia,49344,82.2,26.6
+2005,Georgia,45926,,
+2004,Georgia,40984,,
+2003,Georgia,42438,,
+2002,Georgia,42939,,
+2001,Georgia,42576,,
+2000,Georgia,41901,,
+1999,Georgia,39425,,
+1998,Georgia,38665,,
+1997,Georgia,36663,,
+1996,Georgia,32496,,
+1995,Georgia,34099,,
+1994,Georgia,31467,,
+1993,Georgia,31663,,
+1992,Georgia,28797,,
+1991,Georgia,27212,,
+2020,Hawaii,80825,93.3,35.5
+2019,Hawaii,88006,92.4,33.6
+2018,Hawaii,80108,92,33.5
+2017,Hawaii,73575,92.3,32.9
+2016,Hawaii,72133,92,31.9
+2015,Hawaii,64514,90.9,31.4
+2014,Hawaii,71223,91.7,31
+2013,Hawaii,64235,91,31.2
+2012,Hawaii,56263,90.4,30.1
+2011,Hawaii,59047,90.6,29.1
+2010,Hawaii,59539,89.9,29.5
+2009,Hawaii,55649,90.4,29.6
+2008,Hawaii,61521,90.3,29.1
+2007,Hawaii,64022,89.4,29.2
+2006,Hawaii,60470,89,29.7
+2005,Hawaii,59586,,
+2004,Hawaii,56242,,
+2003,Hawaii,51834,,
+2002,Hawaii,47303,,
+2001,Hawaii,47439,,
+2000,Hawaii,51546,,
+1999,Hawaii,44504,,
+1998,Hawaii,40827,,
+1997,Hawaii,40934,,
+1996,Hawaii,41772,,
+1995,Hawaii,42851,,
+1994,Hawaii,42255,,
+1993,Hawaii,42662,,
+1992,Hawaii,42113,,
+1991,Hawaii,37246,,
+2020,Idaho,66725,91.3,30.9
+2019,Idaho,65988,91.5,28.7
+2018,Idaho,58728,90.9,27.7
+2017,Idaho,60208,90.8,26.8
+2016,Idaho,56564,90.4,27.6
+2015,Idaho,51624,90,26
+2014,Idaho,53438,90.1,25
+2013,Idaho,48467,89.4,26.2
+2012,Idaho,47922,89.8,25.5
+2011,Idaho,47459,88.6,25.2
+2010,Idaho,47050,88.3,24.4
+2009,Idaho,46778,88.4,23.9
+2008,Idaho,47420,87.9,24
+2007,Idaho,49184,88.4,24.5
+2006,Idaho,46213,87.3,23.3
+2005,Idaho,44176,,
+2004,Idaho,44358,,
+2003,Idaho,42372,,
+2002,Idaho,37715,,
+2001,Idaho,38241,,
+2000,Idaho,37611,,
+1999,Idaho,35800,,
+1998,Idaho,36680,,
+1997,Idaho,33404,,
+1996,Idaho,34709,,
+1995,Idaho,32676,,
+1994,Idaho,31536,,
+1993,Idaho,31010,,
+1992,Idaho,27704,,
+1991,Idaho,26116,,
+2020,Illinois,74334,90.4,37.6
+2019,Illinois,74399,89.8,35.8
+2018,Illinois,70145,89.5,35.1
+2017,Illinois,64609,89.1,34.4
+2016,Illinois,61386,88.8,34
+2015,Illinois,60413,88.6,32.9
+2014,Illinois,54916,88.2,32.8
+2013,Illinois,53937,87.8,32.1
+2012,Illinois,51738,87.6,31.6
+2011,Illinois,50637,87.2,31
+2010,Illinois,50728,86.9,30.8
+2009,Illinois,52870,86.4,30.6
+2008,Illinois,53254,85.9,29.9
+2007,Illinois,52506,85.7,29.5
+2006,Illinois,48671,85,28.9
+2005,Illinois,48398,,
+2004,Illinois,46077,,
+2003,Illinois,45153,,
+2002,Illinois,42710,,
+2001,Illinois,46171,,
+2000,Illinois,46064,,
+1999,Illinois,46330,,
+1998,Illinois,43178,,
+1997,Illinois,41283,,
+1996,Illinois,39554,,
+1995,Illinois,38071,,
+1994,Illinois,35081,,
+1993,Illinois,32857,,
+1992,Illinois,31551,,
+1991,Illinois,31884,,
+2020,Indiana,66805,90.2,28.9
+2019,Indiana,66693,89.6,26.9
+2018,Indiana,59892,89,27.1
+2017,Indiana,58873,88.6,26.8
+2016,Indiana,56094,88.4,25.6
+2015,Indiana,51983,88.2,24.9
+2014,Indiana,48060,88.4,24.7
+2013,Indiana,49455,87.6,23.8
+2012,Indiana,46158,87.6,23.4
+2011,Indiana,44445,87.3,23
+2010,Indiana,46139,87,22.7
+2009,Indiana,44305,86.6,22.5
+2008,Indiana,46520,86.2,22.9
+2007,Indiana,47453,85.8,22.1
+2006,Indiana,45407,85.2,21.7
+2005,Indiana,42437,,
+2004,Indiana,42329,,
+2003,Indiana,42425,,
+2002,Indiana,41047,,
+2001,Indiana,40379,,
+2000,Indiana,40865,,
+1999,Indiana,40838,,
+1998,Indiana,39731,,
+1997,Indiana,38889,,
+1996,Indiana,35147,,
+1995,Indiana,33385,,
+1994,Indiana,27858,,
+1993,Indiana,29475,,
+1992,Indiana,28530,,
+1991,Indiana,27089,,
+2020,Iowa,68816,93.1,29.5
+2019,Iowa,66054,92.6,29.3
+2018,Iowa,68718,92.3,29
+2017,Iowa,63481,92.1,28.9
+2016,Iowa,59094,91.8,28.4
+2015,Iowa,60855,91.7,26.8
+2014,Iowa,57810,92.1,27.7
+2013,Iowa,60156,91.6,26.4
+2012,Iowa,53442,91.6,26.3
+2011,Iowa,50219,90.6,25.8
+2010,Iowa,49016,90.6,24.9
+2009,Iowa,50721,90.5,25.1
+2008,Iowa,50142,90.3,24.3
+2007,Iowa,48908,89.6,24.3
+2006,Iowa,48126,88.9,24
+2005,Iowa,46500,,
+2004,Iowa,43391,,
+2003,Iowa,41384,,
+2002,Iowa,41049,,
+2001,Iowa,40976,,
+2000,Iowa,40991,,
+1999,Iowa,41098,,
+1998,Iowa,37019,,
+1997,Iowa,33783,,
+1996,Iowa,33209,,
+1995,Iowa,35519,,
+1994,Iowa,33079,,
+1993,Iowa,28663,,
+1992,Iowa,28743,,
+1991,Iowa,28553,,
+2020,Kansas,73082,91.8,35.1
+2019,Kansas,73151,91.8,34
+2018,Kansas,63938,91,33.8
+2017,Kansas,57872,91,33.7
+2016,Kansas,56810,90.5,32.8
+2015,Kansas,54865,90.3,31.7
+2014,Kansas,53444,90.3,31.5
+2013,Kansas,47820,90.1,31.1
+2012,Kansas,50003,90.2,30.4
+2011,Kansas,46147,90,30.1
+2010,Kansas,46054,89.2,29.8
+2009,Kansas,44717,89.7,29.5
+2008,Kansas,47877,89.5,29.6
+2007,Kansas,48497,89.1,28.8
+2006,Kansas,45552,88.5,28.6
+2005,Kansas,42027,,
+2004,Kansas,41066,,
+2003,Kansas,44232,,
+2002,Kansas,42619,,
+2001,Kansas,41415,,
+2000,Kansas,41059,,
+1999,Kansas,37348,,
+1998,Kansas,36711,,
+1997,Kansas,36471,,
+1996,Kansas,32585,,
+1995,Kansas,30341,,
+1994,Kansas,28322,,
+1993,Kansas,29770,,
+1992,Kansas,30346,,
+1991,Kansas,29295,,
+2020,Kentucky,56755,88.7,27.4
+2019,Kentucky,55662,87.2,25.1
+2018,Kentucky,54555,86.8,24.8
+2017,Kentucky,51348,86.3,24
+2016,Kentucky,45369,85.7,23.4
+2015,Kentucky,42387,85.1,23.3
+2014,Kentucky,42786,84.5,22.2
+2013,Kentucky,44879,84.1,22.6
+2012,Kentucky,41086,83.8,21.8
+2011,Kentucky,39856,83.1,21.1
+2010,Kentucky,41104,81.9,20.5
+2009,Kentucky,42664,81.7,21
+2008,Kentucky,41148,81.3,19.7
+2007,Kentucky,39452,80.1,20
+2006,Kentucky,39485,79.6,20
+2005,Kentucky,36699,,
+2004,Kentucky,35610,,
+2003,Kentucky,36936,,
+2002,Kentucky,36762,,
+2001,Kentucky,38437,,
+2000,Kentucky,36265,,
+1999,Kentucky,33738,,
+1998,Kentucky,36252,,
+1997,Kentucky,33452,,
+1996,Kentucky,32413,,
+1995,Kentucky,29810,,
+1994,Kentucky,26595,,
+1993,Kentucky,24376,,
+1992,Kentucky,23485,,
+1991,Kentucky,23764,,
+2020,Louisiana,51186,86.9,27.2
+2019,Louisiana,51707,86,25
+2018,Louisiana,49973,85.8,24.3
+2017,Louisiana,43903,85.1,23.8
+2016,Louisiana,42196,84.4,23.4
+2015,Louisiana,45922,84.6,23.2
+2014,Louisiana,42406,83.6,22.9
+2013,Louisiana,46425,83.1,22.5
+2012,Louisiana,39085,83,22
+2011,Louisiana,40658,82.5,21.1
+2010,Louisiana,39300,81.9,21.4
+2009,Louisiana,45433,82.2,21.4
+2008,Louisiana,39563,81.2,20.3
+2007,Louisiana,41313,79.9,20.4
+2006,Louisiana,36488,79.4,20.3
+2005,Louisiana,37236,,
+2004,Louisiana,36429,,
+2003,Louisiana,33507,,
+2002,Louisiana,34008,,
+2001,Louisiana,33322,,
+2000,Louisiana,30718,,
+1999,Louisiana,32654,,
+1998,Louisiana,31735,,
+1997,Louisiana,33260,,
+1996,Louisiana,30262,,
+1995,Louisiana,27949,,
+1994,Louisiana,25676,,
+1993,Louisiana,26312,,
+1992,Louisiana,25439,,
+1991,Louisiana,25299,,
+2020,Maine,63693,93.6,33.5
+2019,Maine,66546,93.2,33.2
+2018,Maine,58663,93,31.5
+2017,Maine,51664,92.3,32.1
+2016,Maine,50856,92.3,30.1
+2015,Maine,50756,91.7,30.1
+2014,Maine,51710,91.7,29.4
+2013,Maine,54957,91.8,28.2
+2012,Maine,49158,91.6,28
+2011,Maine,49693,90.9,28.4
+2010,Maine,47931,90.3,26.8
+2009,Maine,47502,90.2,26.9
+2008,Maine,47228,89.7,25.4
+2007,Maine,47894,89.4,26.7
+2006,Maine,45642,88.7,25.8
+2005,Maine,43923,,
+2004,Maine,41329,,
+2003,Maine,37113,,
+2002,Maine,36853,,
+2001,Maine,36612,,
+2000,Maine,37266,,
+1999,Maine,38862,,
+1998,Maine,35640,,
+1997,Maine,32772,,
+1996,Maine,34696,,
+1995,Maine,33858,,
+1994,Maine,30316,,
+1993,Maine,27438,,
+1992,Maine,29617,,
+1991,Maine,27868,,
+2020,Maryland,94789,91.1,43.1
+2019,Maryland,95572,90.4,40.9
+2018,Maryland,86223,90.5,40.8
+2017,Maryland,81084,89.9,39.7
+2016,Maryland,73760,90.1,39.3
+2015,Maryland,73594,89.6,38.8
+2014,Maryland,76165,89.6,38.2
+2013,Maryland,69353,89.1,37.4
+2012,Maryland,71836,89.1,36.9
+2011,Maryland,68876,88.9,36.9
+2010,Maryland,64201,88.1,36.1
+2009,Maryland,64186,88.2,35.7
+2008,Maryland,63711,88,35.2
+2007,Maryland,65630,87.4,35.2
+2006,Maryland,63668,87.1,35.1
+2005,Maryland,60512,,
+2004,Maryland,57103,,
+2003,Maryland,52314,,
+2002,Maryland,56407,,
+2001,Maryland,53530,,
+2000,Maryland,54535,,
+1999,Maryland,52205,,
+1998,Maryland,50016,,
+1997,Maryland,46685,,
+1996,Maryland,43993,,
+1995,Maryland,41041,,
+1994,Maryland,39198,,
+1993,Maryland,39939,,
+1992,Maryland,37203,,
+1991,Maryland,36952,,
+2020,Massachusetts,87812,91.3,46.9
+2019,Massachusetts,87707,91.3,45
+2018,Massachusetts,86345,90.8,44.5
+2017,Massachusetts,73227,90.8,43.4
+2016,Massachusetts,72266,90.4,42.7
+2015,Massachusetts,67861,90.2,41.5
+2014,Massachusetts,63151,89.7,41.2
+2013,Massachusetts,62529,89.9,40.3
+2012,Massachusetts,63656,89.7,39.3
+2011,Massachusetts,63313,89.2,39.1
+2010,Massachusetts,60934,89.1,39
+2009,Massachusetts,59373,89,38.2
+2008,Massachusetts,60320,88.7,38.1
+2007,Massachusetts,58463,88.4,37.9
+2006,Massachusetts,55330,87.9,37
+2005,Massachusetts,56017,,
+2004,Massachusetts,52019,,
+2003,Massachusetts,50955,,
+2002,Massachusetts,49855,,
+2001,Massachusetts,52253,,
+2000,Massachusetts,46753,,
+1999,Massachusetts,44005,,
+1998,Massachusetts,42345,,
+1997,Massachusetts,42023,,
+1996,Massachusetts,39494,,
+1995,Massachusetts,38574,,
+1994,Massachusetts,40500,,
+1993,Massachusetts,37064,,
+1992,Massachusetts,36359,,
+1991,Massachusetts,35714,,
+2020,Michigan,64392,92,32.1
+2019,Michigan,64119,91.4,30
+2018,Michigan,60449,91.1,29.6
+2017,Michigan,57700,90.9,29.1
+2016,Michigan,57091,90.4,28.3
+2015,Michigan,54203,90.1,27.8
+2014,Michigan,52005,89.9,27.4
+2013,Michigan,56567,89.4,26.9
+2012,Michigan,50015,89.2,26
+2011,Michigan,48879,88.8,25.6
+2010,Michigan,46276,88.7,25.2
+2009,Michigan,45994,87.9,24.6
+2008,Michigan,49788,88.1,24.7
+2007,Michigan,49370,87.4,24.7
+2006,Michigan,48647,87.2,24.5
+2005,Michigan,45933,,
+2004,Michigan,42256,,
+2003,Michigan,45022,,
+2002,Michigan,42715,,
+2001,Michigan,45047,,
+2000,Michigan,45512,,
+1999,Michigan,46089,,
+1998,Michigan,41821,,
+1997,Michigan,38742,,
+1996,Michigan,39225,,
+1995,Michigan,36426,,
+1994,Michigan,35284,,
+1993,Michigan,32662,,
+1992,Michigan,32267,,
+1991,Michigan,32117,,
+2020,Minnesota,78753,93.8,37.9
+2019,Minnesota,81426,93.6,37.3
+2018,Minnesota,71817,93.4,36.7
+2017,Minnesota,71920,93.1,36.1
+2016,Minnesota,70218,92.9,34.8
+2015,Minnesota,68730,92.8,34.7
+2014,Minnesota,67244,92.6,34.3
+2013,Minnesota,64324,92.4,33.5
+2012,Minnesota,61795,92.5,33.2
+2011,Minnesota,57820,92,32.4
+2010,Minnesota,52321,91.8,31.8
+2009,Minnesota,56090,91.5,31.5
+2008,Minnesota,54925,91.6,31.5
+2007,Minnesota,58058,91,31
+2006,Minnesota,56211,90.7,30.4
+2005,Minnesota,54215,,
+2004,Minnesota,56104,,
+2003,Minnesota,52823,,
+2002,Minnesota,54622,,
+2001,Minnesota,52681,,
+2000,Minnesota,54251,,
+1999,Minnesota,47038,,
+1998,Minnesota,47926,,
+1997,Minnesota,42564,,
+1996,Minnesota,40991,,
+1995,Minnesota,37933,,
+1994,Minnesota,33644,,
+1993,Minnesota,33682,,
+1992,Minnesota,30981,,
+1991,Minnesota,29479,,
+2020,Mississippi,45134,86.8,24.5
+2019,Mississippi,44787,85.3,22.3
+2018,Mississippi,42781,85.4,23.2
+2017,Mississippi,43441,84.4,21.9
+2016,Mississippi,41099,84.1,21.8
+2015,Mississippi,40037,83.5,20.8
+2014,Mississippi,35521,82.8,21.1
+2013,Mississippi,32338,82.4,20.4
+2012,Mississippi,36641,82.3,20.7
+2011,Mississippi,41090,81.1,19.8
+2010,Mississippi,38160,81,19.5
+2009,Mississippi,35078,80.4,19.6
+2008,Mississippi,36446,79.9,19.4
+2007,Mississippi,37279,78.5,18.9
+2006,Mississippi,34733,77.9,18.8
+2005,Mississippi,32875,,
+2004,Mississippi,34755,,
+2003,Mississippi,32728,,
+2002,Mississippi,30882,,
+2001,Mississippi,30161,,
+2000,Mississippi,34299,,
+1999,Mississippi,32478,,
+1998,Mississippi,29120,,
+1997,Mississippi,28499,,
+1996,Mississippi,26677,,
+1995,Mississippi,26538,,
+1994,Mississippi,25400,,
+1993,Mississippi,22191,,
+1992,Mississippi,20570,,
+1991,Mississippi,19475,,
+2020,Missouri,62178,91.4,31.9
+2019,Missouri,60597,90.7,30.2
+2018,Missouri,61726,90.5,29.5
+2017,Missouri,56885,89.7,29.1
+2016,Missouri,55016,89.6,28.5
+2015,Missouri,59196,88.9,27.8
+2014,Missouri,56630,88.9,27.5
+2013,Missouri,46303,88.7,27
+2012,Missouri,49764,88,26.4
+2011,Missouri,45774,87.6,26.1
+2010,Missouri,45817,86.9,25.6
+2009,Missouri,48769,86.8,25.2
+2008,Missouri,46038,86.5,25
+2007,Missouri,46005,85.6,24.5
+2006,Missouri,44579,84.8,24.3
+2005,Missouri,42986,,
+2004,Missouri,42137,,
+2003,Missouri,43762,,
+2002,Missouri,42776,,
+2001,Missouri,41339,,
+2000,Missouri,45097,,
+1999,Missouri,41383,,
+1998,Missouri,40201,,
+1997,Missouri,36553,,
+1996,Missouri,34265,,
+1995,Missouri,34825,,
+1994,Missouri,30190,,
+1993,Missouri,28682,,
+1992,Missouri,27361,,
+1991,Missouri,27926,,
+2020,Montana,56741,94.4,34.6
+2019,Montana,60195,94.2,33.6
+2018,Montana,57679,93.9,31.7
+2017,Montana,59087,93,32.3
+2016,Montana,57075,92.8,31
+2015,Montana,51395,93.5,30.6
+2014,Montana,51102,92.6,29.3
+2013,Montana,43201,92.7,29
+2012,Montana,45088,92.8,29.4
+2011,Montana,40277,92.3,28.2
+2010,Montana,41280,91.7,28.8
+2009,Montana,40437,90.8,27.4
+2008,Montana,42900,90.9,27.1
+2007,Montana,43655,90,27
+2006,Montana,41105,90.1,27.4
+2005,Montana,37313,,
+2004,Montana,33956,,
+2003,Montana,34108,,
+2002,Montana,34835,,
+2001,Montana,32126,,
+2000,Montana,32777,,
+1999,Montana,31038,,
+1998,Montana,31577,,
+1997,Montana,29212,,
+1996,Montana,28684,,
+1995,Montana,27757,,
+1994,Montana,27631,,
+1993,Montana,26470,,
+1992,Montana,26525,,
+1991,Montana,24827,,
+2020,Nebraska,72248,91.9,33.3
+2019,Nebraska,73071,92,33.2
+2018,Nebraska,67575,91.4,32.4
+2017,Nebraska,59619,91.3,31.7
+2016,Nebraska,59374,90.9,31.4
+2015,Nebraska,60474,91,30.2
+2014,Nebraska,56870,90.3,29.5
+2013,Nebraska,57623,90.2,29.4
+2012,Nebraska,52196,90.5,29
+2011,Nebraska,55616,91,27.9
+2010,Nebraska,52504,90.4,28.6
+2009,Nebraska,49595,89.8,27.4
+2008,Nebraska,50728,90.1,27.1
+2007,Nebraska,49174,89.6,27.5
+2006,Nebraska,48145,89.5,26.9
+2005,Nebraska,47923,,
+2004,Nebraska,43786,,
+2003,Nebraska,43974,,
+2002,Nebraska,42796,,
+2001,Nebraska,43611,,
+2000,Nebraska,41750,,
+1999,Nebraska,38626,,
+1998,Nebraska,36413,,
+1997,Nebraska,34692,,
+1996,Nebraska,34014,,
+1995,Nebraska,32929,,
+1994,Nebraska,31794,,
+1993,Nebraska,31008,,
+1992,Nebraska,30048,,
+1991,Nebraska,29549,,
+2020,Nevada,61164,87.2,28
+2019,Nevada,70906,86.9,25.7
+2018,Nevada,61864,86.9,24.9
+2017,Nevada,56550,86.8,24.9
+2016,Nevada,55431,86,23.5
+2015,Nevada,52008,85.6,23.6
+2014,Nevada,49875,85.1,23.1
+2013,Nevada,51846,85.2,22.5
+2012,Nevada,47333,84.9,22.4
+2011,Nevada,47043,84,22.5
+2010,Nevada,51200,84.7,21.7
+2009,Nevada,51434,83.9,21.8
+2008,Nevada,54744,83.5,21.9
+2007,Nevada,54058,83.7,21.8
+2006,Nevada,52282,83.9,20.8
+2005,Nevada,48209,,
+2004,Nevada,47204,,
+2003,Nevada,45184,,
+2002,Nevada,44958,,
+2001,Nevada,45403,,
+2000,Nevada,45758,,
+1999,Nevada,41461,,
+1998,Nevada,39756,,
+1997,Nevada,38854,,
+1996,Nevada,38540,,
+1995,Nevada,36084,,
+1994,Nevada,35871,,
+1993,Nevada,35814,,
+1992,Nevada,31908,,
+1991,Nevada,32937,,
+2020,New Hampshire,88894,94.1,40.2
+2019,New Hampshire,86900,93.3,37.6
+2018,New Hampshire,81346,93.1,36.8
+2017,New Hampshire,74801,93.1,36.9
+2016,New Hampshire,76260,92.8,36.6
+2015,New Hampshire,75675,93.1,35.7
+2014,New Hampshire,73397,92.2,35
+2013,New Hampshire,69099,92.8,34.6
+2012,New Hampshire,67819,91.8,34.6
+2011,New Hampshire,65880,91.4,33.4
+2010,New Hampshire,66633,91.5,32.8
+2009,New Hampshire,64131,91.3,32
+2008,New Hampshire,66176,90.9,33.3
+2007,New Hampshire,67576,90.5,32.5
+2006,New Hampshire,61970,89.9,31.9
+2005,New Hampshire,56984,,
+2004,New Hampshire,56815,,
+2003,New Hampshire,55567,,
+2002,New Hampshire,55321,,
+2001,New Hampshire,51331,,
+2000,New Hampshire,50926,,
+1999,New Hampshire,46055,,
+1998,New Hampshire,44958,,
+1997,New Hampshire,40998,,
+1996,New Hampshire,39407,,
+1995,New Hampshire,39171,,
+1994,New Hampshire,35245,,
+1993,New Hampshire,37964,,
+1992,New Hampshire,39436,,
+1991,New Hampshire,36032,,
+2020,New Jersey,85549,90.9,43.1
+2019,New Jersey,87726,90.3,41.2
+2018,New Jersey,74176,90.2,40.8
+2017,New Jersey,72997,89.9,39.7
+2016,New Jersey,68468,89.3,38.6
+2015,New Jersey,68357,89.1,37.6
+2014,New Jersey,65243,89.1,37.4
+2013,New Jersey,63754,88.5,36.6
+2012,New Jersey,66692,88.3,36.2
+2011,New Jersey,62338,88.1,35.3
+2010,New Jersey,62968,88,35.4
+2009,New Jersey,64777,87.4,34.5
+2008,New Jersey,65306,87.4,34.4
+2007,New Jersey,60508,87,33.9
+2006,New Jersey,68059,86.1,33.4
+2005,New Jersey,63368,,
+2004,New Jersey,55275,,
+2003,New Jersey,56045,,
+2002,New Jersey,54568,,
+2001,New Jersey,51771,,
+2000,New Jersey,50405,,
+1999,New Jersey,49734,,
+1998,New Jersey,49826,,
+1997,New Jersey,48021,,
+1996,New Jersey,47468,,
+1995,New Jersey,43924,,
+1994,New Jersey,42280,,
+1993,New Jersey,40500,,
+1992,New Jersey,39000,,
+1991,New Jersey,40049,,
+2020,New Mexico,50906,87.8,30.1
+2019,New Mexico,53113,85.9,27.7
+2018,New Mexico,48283,85.4,27.7
+2017,New Mexico,47855,86.1,27.1
+2016,New Mexico,48451,85.4,27.2
+2015,New Mexico,45119,84.6,26.5
+2014,New Mexico,46686,84.2,26.4
+2013,New Mexico,40166,84.3,26.4
+2012,New Mexico,43424,84.4,26.1
+2011,New Mexico,41982,83.2,25.6
+2010,New Mexico,45134,83.3,25
+2009,New Mexico,43542,82.8,25.3
+2008,New Mexico,42102,82.4,24.7
+2007,New Mexico,44356,82.3,24.8
+2006,New Mexico,40028,81.5,25.3
+2005,New Mexico,38947,,
+2004,New Mexico,39562,,
+2003,New Mexico,35105,,
+2002,New Mexico,35457,,
+2001,New Mexico,33124,,
+2000,New Mexico,35093,,
+1999,New Mexico,32574,,
+1998,New Mexico,31543,,
+1997,New Mexico,30086,,
+1996,New Mexico,25086,,
+1995,New Mexico,25991,,
+1994,New Mexico,26905,,
+1993,New Mexico,26758,,
+1992,New Mexico,25860,,
+1991,New Mexico,26540,,
+2020,New York,68659,87.8,39.5
+2019,New York,71855,87.6,37.8
+2018,New York,67274,87.1,37.2
+2017,New York,62447,86.6,36
+2016,New York,61437,86.3,35.7
+2015,New York,58005,86,35
+2014,New York,54310,85.7,34.5
+2013,New York,49966,85.6,34.1
+2012,New York,47680,85.3,33.4
+2011,New York,50636,85,32.9
+2010,New York,49781,84.9,32.5
+2009,New York,50216,84.7,32.4
+2008,New York,50461,84.1,31.9
+2007,New York,48944,84.1,31.7
+2006,New York,48222,84.1,31.2
+2005,New York,47176,,
+2004,New York,44649,,
+2003,New York,42788,,
+2002,New York,41966,,
+2001,New York,42114,,
+2000,New York,40744,,
+1999,New York,39989,,
+1998,New York,37394,,
+1997,New York,35798,,
+1996,New York,35410,,
+1995,New York,33028,,
+1994,New York,31899,,
+1993,New York,31697,,
+1992,New York,31051,,
+1991,New York,31794,,
+2020,North Carolina,60430,90.3,34.8
+2019,North Carolina,61159,88.6,32.3
+2018,North Carolina,53369,88.2,31.9
+2017,North Carolina,50343,87.8,31.3
+2016,North Carolina,53764,87.3,30.4
+2015,North Carolina,50797,86.6,29.4
+2014,North Carolina,46784,86.4,28.7
+2013,North Carolina,46337,85.7,28.4
+2012,North Carolina,41553,85.2,27.4
+2011,North Carolina,45206,84.7,26.9
+2010,North Carolina,43830,84.7,26.5
+2009,North Carolina,41906,84.3,26.5
+2008,North Carolina,42930,83.6,26.1
+2007,North Carolina,43513,83,25.6
+2006,North Carolina,39797,82,24.8
+2005,North Carolina,42056,,
+2004,North Carolina,40238,,
+2003,North Carolina,37279,,
+2002,North Carolina,36515,,
+2001,North Carolina,38162,,
+2000,North Carolina,38317,,
+1999,North Carolina,37254,,
+1998,North Carolina,35838,,
+1997,North Carolina,35840,,
+1996,North Carolina,35601,,
+1995,North Carolina,31979,,
+1994,North Carolina,30114,,
+1993,North Carolina,28820,,
+1992,North Carolina,27771,,
+1991,North Carolina,26853,,
+2020,North Dakota,64115,93.5,31.8
+2019,North Dakota,70031,93.5,30.4
+2018,North Dakota,66505,92.3,29.7
+2017,North Dakota,59886,92.9,30.7
+2016,North Dakota,60184,92.4,29.6
+2015,North Dakota,57415,92.5,29.1
+2014,North Dakota,60730,92.2,27.4
+2013,North Dakota,59152,91.5,27.1
+2012,North Dakota,55766,91.7,27.9
+2011,North Dakota,56361,90.7,26.3
+2010,North Dakota,51006,90.3,27.6
+2009,North Dakota,50075,90.1,25.8
+2008,North Dakota,49631,89.6,26.9
+2007,North Dakota,47205,89,25.7
+2006,North Dakota,41047,88.1,25.6
+2005,North Dakota,42192,,
+2004,North Dakota,39220,,
+2003,North Dakota,40410,,
+2002,North Dakota,36200,,
+2001,North Dakota,35793,,
+2000,North Dakota,35996,,
+1999,North Dakota,32663,,
+1998,North Dakota,30304,,
+1997,North Dakota,31661,,
+1996,North Dakota,31470,,
+1995,North Dakota,29089,,
+1994,North Dakota,28278,,
+1993,North Dakota,28118,,
+1992,North Dakota,26959,,
+1991,North Dakota,25892,,
+2020,Ohio,60379,91.5,30.6
+2019,Ohio,64663,90.8,29.3
+2018,Ohio,61633,90.7,29
+2017,Ohio,59768,90.3,28
+2016,Ohio,53985,90,27.5
+2015,Ohio,53301,89.7,26.8
+2014,Ohio,49644,89.4,26.6
+2013,Ohio,50748,89,26.1
+2012,Ohio,44375,88.8,25.2
+2011,Ohio,44648,88.3,24.7
+2010,Ohio,45886,88.1,24.6
+2009,Ohio,45879,87.6,24.1
+2008,Ohio,46934,87.6,24.1
+2007,Ohio,49099,87.1,24.1
+2006,Ohio,45900,86.2,23
+2005,Ohio,44203,,
+2004,Ohio,43055,,
+2003,Ohio,43520,,
+2002,Ohio,42684,,
+2001,Ohio,41785,,
+2000,Ohio,42962,,
+1999,Ohio,39489,,
+1998,Ohio,38925,,
+1997,Ohio,36134,,
+1996,Ohio,34070,,
+1995,Ohio,34941,,
+1994,Ohio,31855,,
+1993,Ohio,31285,,
+1992,Ohio,31404,,
+1991,Ohio,29790,,
+2020,Oklahoma,52471,89.2,27
+2019,Oklahoma,59397,88.4,26.2
+2018,Oklahoma,54434,88.4,25.6
+2017,Oklahoma,55006,88.1,25.5
+2016,Oklahoma,50943,87.8,25.2
+2015,Oklahoma,47077,87.3,24.6
+2014,Oklahoma,47199,87.3,24.2
+2013,Oklahoma,46162,86.7,23.8
+2012,Oklahoma,48407,86.7,23.8
+2011,Oklahoma,48455,86.3,23.8
+2010,Oklahoma,43103,86.2,22.9
+2009,Oklahoma,45878,85.6,22.7
+2008,Oklahoma,46111,85.5,22.2
+2007,Oklahoma,43216,84.8,22.8
+2006,Oklahoma,38838,84.3,22.1
+2005,Oklahoma,37645,,
+2004,Oklahoma,39614,,
+2003,Oklahoma,35902,,
+2002,Oklahoma,36458,,
+2001,Oklahoma,35609,,
+2000,Oklahoma,32432,,
+1999,Oklahoma,32683,,
+1998,Oklahoma,33727,,
+1997,Oklahoma,31351,,
+1996,Oklahoma,27437,,
+1995,Oklahoma,26311,,
+1994,Oklahoma,26991,,
+1993,Oklahoma,26260,,
+1992,Oklahoma,25284,,
+1991,Oklahoma,25462,,
+2020,Oregon,76855,91.9,36.3
+2019,Oregon,74413,91.4,34.5
+2018,Oregon,69165,90.5,34
+2017,Oregon,64610,91,33.7
+2016,Oregon,59135,90.3,32.7
+2015,Oregon,60834,90,32.2
+2014,Oregon,58875,89.7,30.8
+2013,Oregon,48999,89.7,30.7
+2012,Oregon,51775,89.9,29.9
+2011,Oregon,51526,89.4,29.3
+2010,Oregon,50602,88.8,28.8
+2009,Oregon,49098,89.1,29.2
+2008,Oregon,51727,88.6,28.1
+2007,Oregon,50236,88,28.3
+2006,Oregon,47091,87.6,27.5
+2005,Oregon,44159,,
+2004,Oregon,40994,,
+2003,Oregon,41638,,
+2002,Oregon,41802,,
+2001,Oregon,41273,,
+2000,Oregon,42499,,
+1999,Oregon,40619,,
+1998,Oregon,39067,,
+1997,Oregon,37247,,
+1996,Oregon,35492,,
+1995,Oregon,36374,,
+1994,Oregon,31456,,
+1993,Oregon,33138,,
+1992,Oregon,31927,,
+1991,Oregon,30190,,
+2020,Pennsylvania,70789,91.6,34
+2019,Pennsylvania,70582,91,32.3
+2018,Pennsylvania,64524,91,31.8
+2017,Pennsylvania,63173,90.6,31.4
+2016,Pennsylvania,60979,90.1,30.8
+2015,Pennsylvania,60389,89.7,29.7
+2014,Pennsylvania,55173,89.4,29
+2013,Pennsylvania,55156,89.2,28.7
+2012,Pennsylvania,51904,88.9,27.8
+2011,Pennsylvania,49910,88.6,27
+2010,Pennsylvania,48314,88.4,27.1
+2009,Pennsylvania,48172,87.9,26.4
+2008,Pennsylvania,51402,87.5,26.3
+2007,Pennsylvania,48437,86.8,25.8
+2006,Pennsylvania,48477,86.2,25.4
+2005,Pennsylvania,46300,,
+2004,Pennsylvania,44106,,
+2003,Pennsylvania,42933,,
+2002,Pennsylvania,42498,,
+2001,Pennsylvania,43499,,
+2000,Pennsylvania,42176,,
+1999,Pennsylvania,37758,,
+1998,Pennsylvania,39015,,
+1997,Pennsylvania,37517,,
+1996,Pennsylvania,34899,,
+1995,Pennsylvania,34524,,
+1994,Pennsylvania,32066,,
+1993,Pennsylvania,30995,,
+1992,Pennsylvania,29882,,
+1991,Pennsylvania,30367,,
+2020,Rhode Island,80175,90.1,38
+2019,Rhode Island,70151,89.3,34.8
+2018,Rhode Island,62266,89.1,34.4
+2017,Rhode Island,66390,88.3,33.5
+2016,Rhode Island,61528,88.5,34.1
+2015,Rhode Island,55701,87.7,32.7
+2014,Rhode Island,58633,85.8,30.4
+2013,Rhode Island,56323,85.9,32.4
+2012,Rhode Island,56065,86.1,31.4
+2011,Rhode Island,49033,84.8,31.1
+2010,Rhode Island,51623,83.5,30.2
+2009,Rhode Island,51634,84.7,30.5
+2008,Rhode Island,53241,83.7,30
+2007,Rhode Island,54210,83,29.8
+2006,Rhode Island,53736,82.4,29.6
+2005,Rhode Island,49484,,
+2004,Rhode Island,47935,,
+2003,Rhode Island,44711,,
+2002,Rhode Island,42417,,
+2001,Rhode Island,45723,,
+2000,Rhode Island,42197,,
+1999,Rhode Island,42719,,
+1998,Rhode Island,40686,,
+1997,Rhode Island,34797,,
+1996,Rhode Island,36986,,
+1995,Rhode Island,35359,,
+1994,Rhode Island,31928,,
+1993,Rhode Island,33509,,
+1992,Rhode Island,30432,,
+1991,Rhode Island,30836,,
+2020,South Carolina,60341,89.4,31.7
+2019,South Carolina,62028,88.3,29.6
+2018,South Carolina,57444,88.4,28.3
+2017,South Carolina,54971,87.4,28
+2016,South Carolina,54336,86.6,27.2
+2015,South Carolina,46360,86.3,26.8
+2014,South Carolina,44929,86.1,26.3
+2013,South Carolina,43563,85.6,26.1
+2012,South Carolina,44401,84.9,25.1
+2011,South Carolina,40084,84.2,24.1
+2010,South Carolina,41698,84.1,24.5
+2009,South Carolina,41101,83.6,24.3
+2008,South Carolina,42155,83.2,23.7
+2007,South Carolina,44213,82.1,23.5
+2006,South Carolina,39617,81.3,22.7
+2005,South Carolina,40230,,
+2004,South Carolina,38691,,
+2003,South Carolina,38479,,
+2002,South Carolina,37812,,
+2001,South Carolina,37736,,
+2000,South Carolina,37570,,
+1999,South Carolina,36462,,
+1998,South Carolina,33267,,
+1997,South Carolina,34262,,
+1996,South Carolina,34665,,
+1995,South Carolina,29071,,
+1994,South Carolina,29846,,
+1993,South Carolina,26053,,
+1992,South Carolina,27578,,
+1991,South Carolina,27463,,
+2020,South Dakota,70189,92.2,28.4
+2019,South Dakota,64255,92.1,29.7
+2018,South Dakota,59463,92.3,29.2
+2017,South Dakota,56894,91.7,28.1
+2016,South Dakota,57450,91.2,28.9
+2015,South Dakota,55065,91.1,27.5
+2014,South Dakota,53053,91.7,27.8
+2013,South Dakota,53413,91.6,26.6
+2012,South Dakota,49415,90.5,26.3
+2011,South Dakota,47223,90.6,26.3
+2010,South Dakota,45352,89.6,26.3
+2009,South Dakota,45826,89.9,25.1
+2008,South Dakota,51600,90.3,25.1
+2007,South Dakota,46418,88.2,25
+2006,South Dakota,45427,88.3,24.8
+2005,South Dakota,43151,,
+2004,South Dakota,41107,,
+2003,South Dakota,39522,,
+2002,South Dakota,37873,,
+2001,South Dakota,39671,,
+2000,South Dakota,36475,,
+1999,South Dakota,35828,,
+1998,South Dakota,32786,,
+1997,South Dakota,29694,,
+1996,South Dakota,29526,,
+1995,South Dakota,29578,,
+1994,South Dakota,29733,,
+1993,South Dakota,27737,,
+1992,South Dakota,26259,,
+1991,South Dakota,24639,,
+2020,Tennessee,54975,89.7,30.7
+2019,Tennessee,56627,88,28.7
+2018,Tennessee,56060,87.8,27.5
+2017,Tennessee,55240,87.8,27.3
+2016,Tennessee,51344,87,26.1
+2015,Tennessee,47330,86.1,25.7
+2014,Tennessee,43716,85.8,25.3
+2013,Tennessee,43361,85.6,24.8
+2012,Tennessee,42995,85.1,24.3
+2011,Tennessee,42279,84.2,23.6
+2010,Tennessee,38591,83.6,23.1
+2009,Tennessee,40517,83.1,23
+2008,Tennessee,39702,83,22.9
+2007,Tennessee,41195,81.4,21.8
+2006,Tennessee,40693,80.9,21.7
+2005,Tennessee,39406,,
+2004,Tennessee,38072,,
+2003,Tennessee,37523,,
+2002,Tennessee,37030,,
+2001,Tennessee,35783,,
+2000,Tennessee,34096,,
+1999,Tennessee,36522,,
+1998,Tennessee,34091,,
+1997,Tennessee,30636,,
+1996,Tennessee,30790,,
+1995,Tennessee,29015,,
+1994,Tennessee,28639,,
+1993,Tennessee,25102,,
+1992,Tennessee,24318,,
+1991,Tennessee,24453,,
+2020,Texas,68404,85.8,33.2
+2019,Texas,67444,84.6,30.8
+2018,Texas,59785,84,30.3
+2017,Texas,59295,83.6,29.6
+2016,Texas,58146,82.9,28.9
+2015,Texas,56473,82.4,28.4
+2014,Texas,53875,82.2,27.8
+2013,Texas,51406,81.9,27.5
+2012,Texas,51926,81.4,26.7
+2011,Texas,49047,81.1,26.4
+2010,Texas,47266,80.7,25.9
+2009,Texas,47475,79.9,25.5
+2008,Texas,46490,79.6,25.3
+2007,Texas,46053,79.1,25.2
+2006,Texas,43307,78.6,24.7
+2005,Texas,41422,,
+2004,Texas,41397,,
+2003,Texas,39271,,
+2002,Texas,40149,,
+2001,Texas,40860,,
+2000,Texas,38609,,
+1999,Texas,38688,,
+1998,Texas,35783,,
+1997,Texas,35075,,
+1996,Texas,33072,,
+1995,Texas,32039,,
+1994,Texas,30755,,
+1993,Texas,28727,,
+1992,Texas,27953,,
+1991,Texas,27733,,
+2020,Utah,83993,94,36.9
+2019,Utah,84523,93,34.8
+2018,Utah,77067,92.4,34.9
+2017,Utah,71319,92.1,34.6
+2016,Utah,67481,91.7,32.6
+2015,Utah,66258,91.5,31.8
+2014,Utah,63383,91.4,31.1
+2013,Utah,61047,91.5,31.3
+2012,Utah,58341,91,30.7
+2011,Utah,55493,90.3,29.7
+2010,Utah,56701,90.6,29.3
+2009,Utah,58491,90.4,28.5
+2008,Utah,62537,90.4,29.1
+2007,Utah,53529,90.2,28.7
+2006,Utah,54628,90.2,28.6
+2005,Utah,54813,,
+2004,Utah,50871,,
+2003,Utah,49275,,
+2002,Utah,47861,,
+2001,Utah,47342,,
+2000,Utah,47550,,
+1999,Utah,46050,,
+1998,Utah,44299,,
+1997,Utah,42775,,
+1996,Utah,37038,,
+1995,Utah,36480,,
+1994,Utah,35716,,
+1993,Utah,35786,,
+1992,Utah,34251,,
+1991,Utah,28016,,
+2020,Vermont,67257,94.2,42.1
+2019,Vermont,74305,93.1,38.7
+2018,Vermont,70066,93.5,38.7
+2017,Vermont,63805,92.6,38.3
+2016,Vermont,60837,92.1,36.4
+2015,Vermont,59494,91.7,36.9
+2014,Vermont,60708,92,34.9
+2013,Vermont,65513,91.5,35.7
+2012,Vermont,55582,91.7,35.8
+2011,Vermont,51862,91.8,35.4
+2010,Vermont,55928,91,33.6
+2009,Vermont,52318,91,33.1
+2008,Vermont,50706,90.6,32.1
+2007,Vermont,47390,90.3,33.6
+2006,Vermont,51981,89.8,32.4
+2005,Vermont,50704,,
+2004,Vermont,47329,,
+2003,Vermont,43261,,
+2002,Vermont,42999,,
+2001,Vermont,40794,,
+2000,Vermont,39594,,
+1999,Vermont,41584,,
+1998,Vermont,39372,,
+1997,Vermont,35053,,
+1996,Vermont,32358,,
+1995,Vermont,33824,,
+1994,Vermont,35802,,
+1993,Vermont,31065,,
+1992,Vermont,32755,,
+1991,Vermont,29155,,
+2020,Virginia,82214,91.4,42
+2019,Virginia,81313,90,39.6
+2018,Virginia,77151,89.9,39.3
+2017,Virginia,71293,89.7,38.7
+2016,Virginia,66451,89.3,38.1
+2015,Virginia,61486,88.9,37
+2014,Virginia,66155,88.5,36.7
+2013,Virginia,65907,88.4,36.1
+2012,Virginia,64632,87.9,35.5
+2011,Virginia,62616,87.8,35.1
+2010,Virginia,60367,86.5,34.2
+2009,Virginia,60501,86.6,34
+2008,Virginia,61985,85.9,33.7
+2007,Virginia,59161,85.9,33.6
+2006,Virginia,57119,85.4,32.7
+2005,Virginia,51914,,
+2004,Virginia,51141,,
+2003,Virginia,54783,,
+2002,Virginia,49631,,
+2001,Virginia,50241,,
+2000,Virginia,47163,,
+1999,Virginia,45693,,
+1998,Virginia,43354,,
+1997,Virginia,42957,,
+1996,Virginia,39211,,
+1995,Virginia,36222,,
+1994,Virginia,37647,,
+1993,Virginia,36433,,
+1992,Virginia,38198,,
+1991,Virginia,36137,,
+2020,Washington,81358,92.1,38.4
+2019,Washington,82454,91.7,37
+2018,Washington,79726,91.6,36.7
+2017,Washington,75418,91.3,35.5
+2016,Washington,70310,90.8,35.1
+2015,Washington,67243,90.8,34.2
+2014,Washington,59068,90.4,33.1
+2013,Washington,63922,90.1,32.7
+2012,Washington,62187,90.4,31.7
+2011,Washington,56850,90.1,31.9
+2010,Washington,56163,89.8,31.1
+2009,Washington,60392,89.7,31
+2008,Washington,56631,89.6,30.7
+2007,Washington,58080,89.3,30.3
+2006,Washington,54723,89,30.5
+2005,Washington,50646,,
+2004,Washington,49922,,
+2003,Washington,47508,,
+2002,Washington,45183,,
+2001,Washington,42490,,
+2000,Washington,42525,,
+1999,Washington,45473,,
+1998,Washington,47421,,
+1997,Washington,44562,,
+1996,Washington,36676,,
+1995,Washington,35568,,
+1994,Washington,33533,,
+1993,Washington,35655,,
+1992,Washington,33900,,
+1991,Washington,33970,,
+2020,West Virginia,51970,89.1,23.1
+2019,West Virginia,53706,87.1,21.1
+2018,West Virginia,50573,87.8,21.3
+2017,West Virginia,45392,87.1,20.2
+2016,West Virginia,44354,86,20.8
+2015,West Virginia,42824,86,19.6
+2014,West Virginia,39552,85.2,19.2
+2013,West Virginia,43069,84.6,18.9
+2012,West Virginia,43553,84.5,18.6
+2011,West Virginia,41821,84.2,18.5
+2010,West Virginia,42777,83.2,17.5
+2009,West Virginia,40490,82.8,17.3
+2008,West Virginia,37994,82.2,17.1
+2007,West Virginia,42091,81.2,17.3
+2006,West Virginia,38419,81,16.5
+2005,West Virginia,36445,,
+2004,West Virginia,33373,,
+2003,West Virginia,32763,,
+2002,West Virginia,29359,,
+2001,West Virginia,29673,,
+2000,West Virginia,29411,,
+1999,West Virginia,29297,,
+1998,West Virginia,26704,,
+1997,West Virginia,27488,,
+1996,West Virginia,25247,,
+1995,West Virginia,24880,,
+1994,West Virginia,23564,,
+1993,West Virginia,22421,,
+1992,West Virginia,20271,,
+1991,West Virginia,23147,,
+2020,Wisconsin,67405,93.1,31.8
+2019,Wisconsin,67355,92.8,31.3
+2018,Wisconsin,62629,92.1,30
+2017,Wisconsin,63451,92.4,30.4
+2016,Wisconsin,59817,91.9,29.5
+2015,Wisconsin,55425,91.4,28.4
+2014,Wisconsin,58080,91.4,28.4
+2013,Wisconsin,51726,90.9,27.7
+2012,Wisconsin,53079,90.7,27.1
+2011,Wisconsin,52058,90.4,26.5
+2010,Wisconsin,50351,90.1,26.3
+2009,Wisconsin,51237,89.8,25.7
+2008,Wisconsin,51200,89.6,25.7
+2007,Wisconsin,51277,89,25.4
+2006,Wisconsin,51692,88.4,25.1
+2005,Wisconsin,44650,,
+2004,Wisconsin,45732,,
+2003,Wisconsin,46269,,
+2002,Wisconsin,45903,,
+2001,Wisconsin,45346,,
+2000,Wisconsin,45088,,
+1999,Wisconsin,45667,,
+1998,Wisconsin,41327,,
+1997,Wisconsin,39595,,
+1996,Wisconsin,40001,,
+1995,Wisconsin,40955,,
+1994,Wisconsin,35388,,
+1993,Wisconsin,31766,,
+1992,Wisconsin,33308,,
+1991,Wisconsin,31133,,
+2020,Wyoming,65450,93.8,28.2
+2019,Wyoming,65134,94.5,29.1
+2018,Wyoming,62539,93.3,26.9
+2017,Wyoming,57837,92.9,27.6
+2016,Wyoming,57829,93.2,27.1
+2015,Wyoming,60925,92.2,26.2
+2014,Wyoming,55690,92.6,26.6
+2013,Wyoming,67441,93.5,26.6
+2012,Wyoming,57512,91.7,24.7
+2011,Wyoming,54509,92,24.7
+2010,Wyoming,52201,92.3,24.1
+2009,Wyoming,52470,91.8,23.8
+2008,Wyoming,53337,91.7,23.6
+2007,Wyoming,48744,91.2,23.4
+2006,Wyoming,47041,90.2,22.7
+2005,Wyoming,44718,,
+2004,Wyoming,45397,,
+2003,Wyoming,42555,,
+2002,Wyoming,39763,,
+2001,Wyoming,39719,,
+2000,Wyoming,39629,,
+1999,Wyoming,37248,,
+1998,Wyoming,35250,,
+1997,Wyoming,33423,,
+1996,Wyoming,30953,,
+1995,Wyoming,31529,,
+1994,Wyoming,33140,,
+1993,Wyoming,29442,,
+1992,Wyoming,30209,,
+1991,Wyoming,29050,,

@@ -1,0 +1,627 @@
+---
+title: "Exploratory Data Descriptor Report"
+author: "Aayra Aamer & Vanessa Wang"
+date: "`r format(Sys.time(), '%d %B %Y')`"
+output:
+  rmdformats::readthedown:
+    code_folding: hide
+---
+```{css, echo=F, show_col_types = FALSE}
+th, td{
+      padding-left: 10px; text-align: left;
+}
+h1.title{font-size: 38px;}
+
+.full-width {
+  width: 100vw !important;
+  position: relative !important;
+  margin-left: -50vw !important;
+  margin-top: 10px !important;
+  left: 50% !important;
+ }
+```
+
+```{r setup, include=FALSE, echo = F}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r import, echo=F, message=FALSE, warning=FALSE}
+#Loading Libraries 
+library(readr)
+library(tidyverse)
+library(knitr)
+library(plotly)
+library(kableExtra)
+
+#Importing Main Dataset
+hate_crime <- read_csv("hate_crime.csv")
+```
+
+# Introduction: the Hate Crime Statistics Dataset
+
+The Hate Crimes Statistics Program takes voluntary input from agencies and spans three decades of data from 1991 to 2020. While in 1991, the statistics were based on the data received from 2,750 of the 16,167 (17%) law enforcement agencies in the country that year, the numbers grew to data being reported by 15,138 of 18,625 (81%) agencies in 2020. The FBI defines hate crimes as “criminal offenses that were motivated, in whole or in part, by the offender’s bias against the victim’s race/ethnicity/ancestry, gender, gender identity, religion, disability, or sexual orientation”(Federal Bureau of Investigation, 2020). Thus for an incident to be considered a hate crime, the incident must be a criminal offense and motivated by a bias about the victim’s (perceived or actual) race, gender, religion, etc. For instance, one of the hate crimes the data set reports is ‘aggravated assault’ due to the victim’s race (the bias is recorded more specifically as ‘anti-Black or African American’). Additionally, as motivation is subjective, showing the presence of a bias and ultimately recording an incident as a hate crime is a two-tiered decision-making process – the responding officer identifies a bias, which is then reviewed by a second officer in the scenario of other aspects of the incident.
+
+# Data Collection Process
+
+Following the Hate Crime Statistics Act of 1990, the Federal Bureau of Investigation (FBI) launched The Hate Crime Statistics Program, an annual publication under the FBI’s Uniform Crime Reporting Program (UCR) that reports crime data points grounded in prejudice based on the victim’s identity. The culmination of the national data gathered for UCR feeds into three different annual publications, one of which is the Hate Crime Statistics Program – thus this dataset is the final product of subsetting a broader dataset based on definitions of hate crime. 
+
+The collection begins when a crime is reported to a local agency. Generally, these agencies then submit their reports to a state UCR facility on a monthly basis. State programs are provided training and strict guidelines surrounding crime classifications and are responsible for sending the data, with uniform crime definitions, to the FBI. While 48 states currently participate in the state UCR Program, agencies in states without a state program receive reporting guidelines from the FBI and work as direct contributors. Once the complete data is received by the FBI, its validity is tested. For instance, crime data on an agency/state level may be compared on a monthly and yearly basis, and any large fluctuations are flagged for further inquiry. The flagged deviations are then checked for changes such as modified recording procedures, incomplete reporting, or any structural changes in the jurisdiction. The FBI then compiles, publishes, and distributes the Hate Crime Statistics under the UCR Program.
+
+# Scope of the Dataset
+
+The FBI’s Hate Crime Statistics serve as the main indicator of hate crime on a national level. Each year, the dataset informs us of what discrimination on a criminal level looks like. As such, it allows us to study aggregate trends in hate crimes. Additionally, as the dataset goes back to 1991, it allows us to study how hate crimes have changed over time. This is a particularly important aspect of the dataset as we can potentially study the trends around the time points when specific policy changes surrounding discrimination were introduced, allowing us to comment on their effectiveness. Further, having information on state-level data allows us to draw inferences on the breakdown of hate crimes by state, and hence comment on which regions suffer larger degrees of discrimination and along which category. We can also combine a state-by-state comparison with a comparison across time to see which states have successfully lowered their hate crime numbers and which ones have worsened in this aspect. 
+ 
+Further, having specific information about the biases motivating a crime can allow us to see which specific biases plague a region. Such a data point can inform policymakers of what specific issues need to be tackled on a state level. Additionally, the dataset allows us to comment on which locations are most unsafe; since the FBI will distribute the dataset back to participating agencies, officers would know what crimes are most prevalent in their localities as well as which specific locations are at higher risk. This awareness can allow for policy changes on a local level such as deciding which groups to offer higher protection to and at which locations to arrange more patrolling. 
+
+# Literature Review
+
+Disha et al. (2011) studied the hate crimes offending against Arabs and Muslims across US counties in the months before and after 9/11. They combined the UCR dataset with data on county-level populations to show that crimes against Arabs and Muslims significantly increased in the months proceeding the 9/11 incident. Additionally, they utilized negative binomial regression models to make two assessments. Firstly, counties with larger concentrations of Arabs and Muslims tended to have higher incidents, in line with the higher availability of potential targets. Secondly, the likelihood of victimization, being considered at the victim rate per Arab and Muslim population in a county, was found to be lower in counties with more Arab and Muslim populations, reflecting that the marginalized group is less vulnerable in areas where the group has strength in population numbers.
+ 
+Koshi and Bantley (2019) looked at hate crime prevalence through the lens of legislative changes. For instance, they specifically looked at reported hate crime incidents during Obama’s presidency and studied the hate crimes towards the LGBTQ+ community in the light of changes made by the President, Congress, and Supreme Court to explain the underlying factors affecting the changes in crime rates. Similarly, they looked at the prevalence of hate crimes during Trump’s Presidency and marked specific incidents in which his inflammatory rhetoric formed the basis for the offenders' justification for the crime.
+ 
+Pezzella, Fetzer, and Keller (2019) carried out a cross-comparison between the UCR and National Crime Victimization Survey (NCVS), motivated by the largely different hate crime numbers reported by the two datasets. They utilized descriptive statistics and logistic regressions to study two hypotheses. Firstly, they hypothesized that bias victims are less likely to report incidents to the police than nonbias victims. They successfully detected an increasingly stronger propensity for bias victims to not report their incidents. Secondly, they hypothesized that victims' misperception of police legitimacy explains crime underreporting and also found evidence to support this hypothesis.
+ 
+
+# Ethical Considerations
+
+Currently, two primary sources of hate crime data exist in the United States. In addition to the Hate Crimes Statistics under UCR, the Bureau of Justice Statistics’ (BJS’s) National Criminal Victimization Survey (NCVS) also collects data on the US hate crimes. The latter draws data through a nationally representative, household-based survey and suggests that the figures reported under UCR may be heavily compressed. For instance, between 2013-2017, NCVS showed that the annual hate crimes averaged 2,04,600, however, out of which only 1,01,900 (50%) were reported. Further, only 15,200 (i.e., 7% of the annual hate crimes) were such that the victim confirmed that the police registered it as a hate crime (Oudekerk, 2019).
+ 
+The significant discrepancies between the two datasets raise important concerns. Firstly, they highlight the significant distinction between actual crime and reported crime. The data collected under UCR only includes crimes reported to agencies. Hence, if victims, for the sake of maintaining anonymity or due to distrust in the system, choose to not alert the authorities, then they will not be included in the report. Secondly, biases are often subjective. However, the strict UCR guidelines for what constitutes a hate crime – for instance, two officers must both confirm the presence of bias based on investigation of sufficient evidence – make a large proportion of reported crimes to not fall under hate crimes. To confirm this discrepancy, we analyzed the UCR dataset from 2013-2017. While, on average, 17,400 agencies participated in the survey per year, only 1840 reported any presence of hate crime. With nearly 90% of the agencies finding zero evidence of any hate crime in their jurisdiction, while the population’s sample reports otherwise, we recognize that UCR’s hate crime dataset has its limitations. 
+ 
+However, the inaccuracy of UCR’s dataset in representing all hate crimes that plague the population is only part of the problem. The key characteristics it records for the offender are limited to the offender’s race and ethnicity. Given that the principal purpose of such a dataset is to draw inferences that can inform policy, the data should focus on variables that can drive systematic change, like income and education. Further, as Garland (2012) notes, there is the issue of deciding which identity groups can be victims of hate crime. When certain groups (e.g., racial, ethnic) are considered victims but others (e.g., homeless, sex workers) are not, it further isolates the marginalized victim. Additionally, just like all victims of hate crimes are not captured, not every harassment is recorded as a crime. For instance, microaggressions would not be a part of this dataset. Thus, it is important to note that, under the UCR’s current collection methods, even if every qualifying case was accurately captured, the data would still not fully capture the prevalence of all hate crimes.
+ 
+ 
+# Data Distribution
+
+An initial look at the dataset is presented below (Table 1). We can see that the survey began right after the Hate Crime Statistics Act of 1990 and data was collected till 2020, allowing for 29 years of data. Across nearly three decades of data, over 200,000 US hate crimes were recorded. As we look into the data on how many people were victimized, it appears that on average, each incident has 1.25 victims. Additionally, we tried to see which group was under the highest level of bias. Counting based on the 35 individual bias categories, the dataset shows that most hate crimes were racially motivated, especially against African Americans. 
+ 
+When we look at the offenders, it initially appears that there are fewer criminals than there are crimes. However, closer examination shows that over 36% of the incidents have missing data for the offender. Assuming such incidents to each have a single offender, there would be approximately 1.32 offenders per incident. Further, the system recognizes 48 unique offenses. A total of 353 combinations of these 48 have appeared in the reported incidents, with the most common one being property related. The dataset also reports the location of the crime; we summarized and found that most recorded hate crimes were committed in a residence.
+ 
+Additionally, the dataset reports on a total of 53 states, accounting for the established 50 US states as well as Guam, the District of Columbia, and Federal. The dataset does not distinguish between territories and states. Among these states and territories, California appears to have the largest prevalence of hate crimes. 
+
+ 
+
+```{r tablestats}
+
+tot_incidents <- length(unique(hate_crime$INCIDENT_ID))
+tot_agencies <- length(unique(hate_crime$ORI))
+tot_biases <- length(unique(hate_crime$BIAS_DESC))
+tot_states <- length(unique(hate_crime$STATE_NAME))
+tot_victims <- sum(hate_crime$VICTIM_COUNT)
+year_start <- min(hate_crime$DATA_YEAR)
+year_end <- max(hate_crime$DATA_YEAR)
+tot_years <- year_end  - year_start 
+mode_state <- names(which.max(table(hate_crime$STATE_NAME)))#state with most crimes
+tot_offense <- length(unique(hate_crime$OFFENSE_NAME)) # total offense combos
+tot_offenders <- sum(hate_crime$TOTAL_OFFENDER_COUNT) # total offenders
+tot_locations <- length(unique(hate_crime$LOCATION_NAME)) #tot locations
+
+
+hc_central <- hate_crime %>%
+  separate_rows(BIAS_DESC, sep = ";")   # breakdown the bias variable so that multiple biases will be listed as separate rows
+
+hc_central<- hc_central %>%
+  separate_rows(OFFENSE_NAME, sep = ";") 
+
+hc_central <- hc_central %>%
+  separate_rows(LOCATION_NAME, sep = ";") #131 to 46
+
+tot_bias_sep <- length(unique(hc_central$BIAS_DESC))
+tot_offense_sep <- length(unique(hc_central$OFFENSE_NAME))
+tot_locations_sep <- length(unique(hc_central$LOCATION_NAME))
+
+mode_bias <- names(which.max(table(hc_central$BIAS_DESC))) 
+mode_offense <-names(which.max(table(hc_central$OFFENSE_NAME))) 
+mode_location <-names(which.max(table(hc_central$LOCATION_NAME))) 
+
+
+hc_central1 <- hate_crime %>%
+  filter(TOTAL_OFFENDER_COUNT==0)
+
+tot_unknown_offenders <- length(hc_central1$TOTAL_OFFENDER_COUNT)
+
+hc_central2 <- hate_crime %>%
+  filter(VICTIM_COUNT==0)
+
+
+
+
+vals <- c(year_start, year_end, tot_years, tot_incidents, tot_victims, tot_offenders,tot_unknown_offenders, tot_states, mode_state, tot_agencies, tot_biases, tot_bias_sep, mode_bias, tot_offense, tot_offense_sep,mode_offense, tot_locations, tot_locations_sep,mode_location)
+
+
+lab_vals <- c("Survey Start Year", "Survey Latest Year", "Total Years of Data", "Total Incidents", "Total Victims", "Total Offenders", "No Offender Data", "Total States","State with Highest Crime", "Total Agencies", "Total Bias Combinations", "Total Bias Types", "Most Common Bias", "Total Offense Combinations", "Total Offense Types", "Most Common Offense", "Total Location Combinations","Total Location Types", "Most Common Location")
+
+tabstats <- data.frame(lab_vals,vals)
+
+tab_up <- (kable(tabstats, digits = 3, caption = "Summary Statistics for the Entire Hate Crimes Publication", col.names = c("", "")) %>% 
+  kable_styling(bootstrap_options = c("striped", "hover", full_width = F)))
+
+tab_up
+```
+
+
+# Data Cleaning
+
+After examining the original dataset and variables, we made the decision to exclude certain variables for the sake of the current analysis. First, since the analysis was not conducted on an individual agency level, variables including ORI (originating agency identifier), agency name, agency unit, and agency type were removed. Further,  the major geographical scales we zoomed into were region and state level, thus variables recording on a finer scale (e.g., division name) were also excluded. The original dataset categorizes the population of the city/county where each crime took place, however, since we intended to use population as a numerical number (that is, the specific population counts rather than a categorical variable), these variables were also removed. 
+
+Moving on to the columns recording information more crime-related, we chose to remove some variables since the FBI did not start collecting them until 2013, as opposed to the fact that the span of our dataset begins in 1991. Missing the majority of the data in these variables would inevitably hinder our chronological analysis, thus they were excluded from the analysis. Such variables are adult victim/offender count, juvenile victim/offender count, and offender ethnicity. Note that examination of these variables can be useful if the research is specifically interested in hate crimes in recent decades.
+
+Additionally, we noticed that FBI also requires each police agency to report information about offenders such as race and ethnicity and to report information about victims such as victim type (individual, religious organization, business, etc.). Because the primary goal of our exploration is focused on crime count trend from geographical and chronological perspectives as well as the biases that drive the motivation behind the US hate crimes, we decided to also not consider these variables, since first, they are not the focus of the current analysis and second, because the information was only recorded in a very preliminary stage. To be more specific, given only the information about their race and ethnicity, we can barely depict a clear picture of offenders as a group, and if we categorize offenders only using their race, misleading conclusions could be made. As we have stressed before, future analyses could look into US hate crime from the lens of offenders and victims if they could merge the current dataset with data containing demographic information such as socioeconomic background, average income, and education level.
+
+After excluding unused variables, we created a data subset including the remaining variables. We noticed that for crimes that involved multiple biases, offense names, location names, or victim types, the combinations were all recorded in a single row, separated by a semicolon. Take multiple biases as an example, here the word “combination” implies that the offender may be acting on one or more biases, and the total combinations represent the culmination of all unique pairings of these multiple biases. A crime in which the offender(s) committed it driven by both anti-Asian bias and anti-gay bias will be recorded as “Anti-Asian; Anti-Gay (Male)” in the bias category variable. The original dataset contains in total of 1019 crimes that involved multiple biases and 279 bias combinations, hence we decided to break them down into separate items so that each bias would be counted individually in the aggregate analysis (separate_rows(BIAS_DESC, sep = ";")). The same procedure was done with crimes that involved multiple offense names, location names, or victim types based on a similar rationale. After cleaning, there were in total 35 unique bias types, 48 unique offense names, 46 unique location names, and 7 unique victim types left.
+
+
+```{r Clean: Creating Main Dataframe, echo=F, message=FALSE, warning=FALSE}
+
+#Converting Data to Long Form
+hc_new <- hate_crime %>%
+  separate_rows(BIAS_DESC, sep = ";")   # breakdown the bias variable so that multiple biases will be listed as separate rows
+
+hc_new <- hc_new %>%
+  separate_rows(OFFENSE_NAME, sep = ";") 
+
+hc_new <- hc_new %>%
+  separate_rows(LOCATION_NAME, sep = ";") #131 to 46
+
+hc_new <- hc_new %>%
+  separate_rows(VICTIM_TYPES, sep = ";") #55 to 7
+
+
+# Creating Subset with Variables of Interest
+hc_new <- subset(hc_new, select = c(INCIDENT_ID,DATA_YEAR,STATE_ABBR,STATE_NAME,OFFENSE_NAME,LOCATION_NAME,BIAS_DESC,VICTIM_TYPES))
+
+
+#Importing Supplemental US pop Dataset
+us_population <- read_csv("us_population.csv") 
+
+
+#Extracting Date (Year) and Population Data (in millions) from US pop dataset
+us_population <- us_population[-1,] %>%
+  mutate(DATA_YEAR = as.numeric(str_sub(Date, start = -4))) %>%
+  mutate(population = as.numeric(str_sub(Value, 1, nchar(Value) - 8))) 
+us_population <- us_population[,-c(1,2)]  # only keep the year and population variable
+
+
+#Merging the extracted population data with our main hate crime dataset
+hc_new <- hc_new %>%
+  left_join(us_population, by = "DATA_YEAR")  
+
+
+# total bias + offense
+# unique bias + offense
+# which max bias + offense
+```
+
+```{r descriptive, echo=FALSE}
+
+#Yearly Total Hate Crimes
+us_crime_count <- hc_new %>%
+ group_by(DATA_YEAR) %>%
+ summarise(crime_count = n())  # record number of hate crimes each year nationwide
+
+#Yearly Total Crimes + per_capita numbers
+ us_crime_count <- us_crime_count %>%
+ left_join(us_population, by = "DATA_YEAR") %>%  # merge population data with crime_count dataset
+ mutate(per_million = crime_count/population)  # calculate hate crime per million pop for each year and add it as a new variable
+```
+
+# Graphical Analysis 
+
+## Prevalence of US Hate Crime Across Time
+
+First, we wanted to plot and see the general trend of US hate crimes nationwide chronologically. To make the year-to-year comparison more reasonable, that is, taking population into account, a scatter plot was chosen. As for each data point, the value of its x-axis recorded the year, while the value of its y-axis reflected the number of hate crimes, per million of US population, in that corresponding year. To make this possible, we first counted the number of national hate crimes by year in a subset, and then we merged it with a new dataset ( “US Population By Year.”, 2022) that contains the US population on a yearly basis. A new variable recording crime per million population was then mutated into the dataset by dividing crime count by population. Plotting the data we had, as shown in Figure 1 below, we could see that there is an overall downward trend in the US hate crime from the year of 1995 to 2015. However, the data swiftly increased back up again starting in 2014. Given the limitation of our current dataset, more data and analysis are required to provide a proper examination for the validity of the trend we identify as well as the potential driven factors behind it.
+
+
+```{r figure1,fig.align = 'center',out.fullwidth=TRUE}
+# figure 1: hate crime per capita by year
+fig1 <- us_crime_count %>%
+  ggplot(mapping = aes(x = DATA_YEAR, y = per_million))+
+  geom_point(color ="Pale Violet Red 4")+
+  labs(x = "Year", y = "Hate Crime (per Million Population)", title = "Figure 1: US Hate Crime By Year (Per Million Population)")
+
+fig1
+```
+
+## State Level Hate Crime Prevalence
+
+After examining the aggregated national trend of hate crime over time, we moved forward and focused on a finer geographical scale: state. We took a similar approach and grouped the dataset by state/region and year and counted the total number of hate crimes in each state/region on a yearly basis. Since the interest was to investigate changes over time in each state, we created an interactive graph that uses color shading to represent the amount of state-level hate crimes. On a scale of 0 to 1500, a relatively intuitive color palette was chosen, where darker shade represents more crimes and lighter shade represents fewer crimes. Using the plot_geo package and setting the scope to the US on a state level, we plotted the crime counts each year by matching the state abbreviation in our dataset with the default state list that comes with the plot_geo package. The slider below the graph can be controlled by the user to move between each year, and the “play” button next to it enables automatic animation that goes sequentially through the graph of each year. In Figure 2, four individual graphs (for the year of 1991, 2000, 2010, and 2020) are shown, intending to provide a general picture of how state-level hate crimes varied during the period of three decades.
+
+
+```{r figure2, message=FALSE, warning=FALSE,fig.align = 'center'}
+
+#Figure 2: Hate Crime by State per year
+
+state_crime_count <- hc_new %>%
+  group_by(DATA_YEAR, STATE_ABBR, STATE_NAME) %>%
+  summarise(crime_count = n())  # record number of hate crimes each year statewide
+
+state_crime_count <- state_crime_count %>%   # recode Nebraska's abbr as NE to match with the plot_geo package
+  mutate(STATE_ABBR = replace(STATE_ABBR, 
+                              STATE_ABBR == "NB", 
+                              "NE"))
+
+g <- list(scope = 'usa')
+fig2 <- plot_geo(state_crime_count, locationmode = "USA-states") %>%
+  add_trace(z = ~state_crime_count$crime_count, 
+            locations = state_crime_count$STATE_ABBR, 
+            frame=~state_crime_count$DATA_YEAR,
+  color = ~state_crime_count$crime_count,
+ colors = "Reds") %>%
+  #colors = "YlOrRd") %>%
+ colorbar(title = "Hate Crime Prevalence",
+          limits = c(0,1500)) %>%  # standardize the scale
+  animation_slider(
+    currentvalue = list(prefix = "YEAR: ", font = list(color="black"))
+    ) %>%
+  layout(title = "Figure 2: State Level Hate Crime Prevalence", 
+         geo = g)
+
+
+fig2
+```
+
+
+![](statestaticimg.jpg){width=100%}
+
+
+## Distribution of US Hate Crime By Bias Category
+
+Further, we took a step back and re-evaluated the US hate crime on a national scale, however this time we chose to zoom in from the perspective of bias category. Currently, after splitting the original bias type variable to break down multiple biases recorded in a single crime as separate rows, there are 35 distinct types of biases being recorded. Referencing the Hate Crime Methodology document published by UCR, we re-categorized the bias type variable by classifying individual biases into seven wider bias categories: race, ethnicity, gender, gender identity, religion, disability, and sexual orientation. For example, Anti-Gay (Male), Anti-Lesbian (Female), Anti-Lesbian, Gay, Bisexual, or Transgender (Mixed Group), Anti-Heterosexual, and Anti-Bisexual were all recategorized as (Anti-) Sexual Orientation. Afterward, we grouped the dataset by the new bias type variable, counted crime counts in each subcategory, and calculated the percentage of each bias type. A pie chart was chosen since it helps illustrate the proportion of each bias type clearly, as shown in Figure 3. As we can see, race (54.8%), religion (19.6%), and sexual orientation (16.4%) are the top three biases that lead to hate crimes in the US.
+
+
+
+```{r descriptive2, echo=FALSE, message=FALSE, warning=FALSE}
+# number of crimes of each of the 35 biases for each state
+bias_count <- hc_new %>%
+  group_by(STATE_ABBR,  BIAS_DESC) %>%
+  summarise(n = n()) 
+	
+
+# grouped by biases, arranging states by number of crimes (decsending) in each bias category
+bias <- bias_count %>%
+  arrange(desc(n)) %>%
+  group_by(BIAS_DESC) %>%
+  arrange(BIAS_DESC)
+
+
+# grouped by state, top 10 biases that each state has the most number of crimes in total
+state <- bias_count %>%
+  arrange(desc(n)) %>%
+  group_by(STATE_ABBR) %>% 
+  slice(1:10)
+
+```
+
+```{r figure3, message=FALSE, warning=FALSE}
+# Figure 3: Proportion of Different Types of Hate Crimes: Overall and By State
+# Cateogrization by Census Bureau Categories
+
+#Categorizing
+bias_count1 <- hc_new
+bias_count1$BIAS_DESC [bias_count1$BIAS_DESC %in% c("Anti-Multiple Races, Group","Anti-American Indian or Alaska Native","Anti-Asian", "Anti-Native Hawaiian or Other Pacific Islander","Anti-Black or African American","Anti-White")] <- "Race" 
+
+bias_count1$BIAS_DESC [bias_count1$BIAS_DESC %in% c("Anti-Gay (Male)","Anti-Lesbian (Female)","Anti-Lesbian, Gay, Bisexual, or Transgender (Mixed Group)","Anti-Heterosexual","Anti-Bisexual")] <- "Sexual Orientation" 
+
+bias_count1$BIAS_DESC [bias_count1$BIAS_DESC %in% c("Anti-Male","Anti-Female")] <- "Gender (Anti-Male, Anti-Female)" 
+
+bias_count1$BIAS_DESC [bias_count1$BIAS_DESC %in% c("Anti-Transgender","Anti-Gender Non-Conforming")] <- "Gender Identity (Anti-Transgender, Anti-Gender Non-Conforming)" 
+
+bias_count1$BIAS_DESC [bias_count1$BIAS_DESC %in% c("Anti-Jewish","Anti-Multiple Religions, Group","Anti-Other Religion","Anti-Buddhist","Anti-Catholic","Anti-Islamic (Muslim)","Anti-Other Christian","Anti-Atheism/Agnosticism","Anti-Hindu","Anti-Eastern Orthodox (Russian, Greek, Other)","Anti-Jehovah's Witness","Anti-Protestant","Anti-Sikh","Anti-Mormon")] <- "Religion" 
+
+bias_count1$BIAS_DESC [bias_count1$BIAS_DESC %in% c("Anti-Arab","Anti-Hispanic or Latino")] <- "Ethnicity"
+                      
+bias_count1$BIAS_DESC [bias_count1$BIAS_DESC %in% c("Anti-Mental Disability","Anti-Physical Disability")] <- "Disability"
+
+bias_count1<-bias_count1[!(bias_count1$BIAS_DESC=="Unknown (offender's motivation not known)" | bias_count1$BIAS_DESC=="Anti-Other Race/Ethnicity/Ancestry"),]
+
+
+#Overall
+bias_count11 <- bias_count1 %>%
+  group_by(BIAS_DESC) %>%
+  summarise(n = n()) %>%
+  arrange(desc((n)))
+
+colors <- c(colors <- c('rgb(211,94,96)', 'rgb(128,133,133)', 'rgb(117, 66, 67)', 'rgb(199, 139, 123)', 'rgb(255, 194, 138)','rgb(201, 143, 188)', 'rgb(237, 218, 219)','rgb(196, 159, 190)'))
+f3_1 <- plot_ly(bias_count11, labels = ~BIAS_DESC, values = ~n, type = 'pie',
+        textinfo = 'percent',
+        insidetextfont = list(color = '#FFFFFF'),
+        hoverinfo = 'text',
+        text = ~paste('Case count: ', n),
+        marker = list(colors = colors),
+        marker = list(line = list(color = '#FFFFFF', width = 1)),
+        showlegend = TRUE)
+f3_1 <- f3_1 %>% layout(title = 'Figure 3: Distribution of US Hate Crime By Bias Category',
+         margin = c(10, 10, 10, 10),
+         legend = list(orientation = "h", xanchor = "center", x = 0.5, y = -0.2))    
+f3_1
+# "Pink 1", Pale Violet Red 3, Indian Red, Dark Red, Pale Violet Red, Pale Violet Red 4, Brown 4
+```
+
+##  Hate Crime Frequency By Region 
+
+Next, continuing on the idea of examining the composition of bias types and their respective prevalence in US hate crimes, we created a set of bar graphs on a regional basis, demonstrating the crime prevalence for each bias type. This time, we recategorized each state into one of five regions based on their geographical locations: South, West, Northeast, Midwest, and Pacific and US Territories. Categorization was done according to the Census Bureau-designated regions and divisions (U.S. Census Bureau, 2010). The x-axis, representing the bias category, was arranged in an order specifically corresponding to the prevalence of each bias category nationwide, as illustrated in Figure 3. To make the comparison easier, we also created a bar chart for the nationwide data (Figure 3-2). By doing so, we can immediately recognize mismatch, if any, within each region, that whether a region has significantly more or fewer hate crimes in a specific bias category compared to the national level. Relative frequency (instead of actual crime counts) was chosen to be the measurement of crime prevalence for individual bias categories within each region, so that we could ensure the scales of the y-axis to remain stable when comparing region to region, yielding more reliable conclusions. For example, as shown in Figure 4, the Northeast has an evidently larger proportion of religion-based hate crimes compared to the national level (as shown in Figure 3-2), whereas the Midwest and the Pacific region have a larger proportion of race-based hate crimes compared to other bias types and the national level.
+
+
+```{r f3_2}
+
+bias_count11 <- bias_count11 %>%
+    mutate(BIAS_DESC = replace(BIAS_DESC, 
+                             BIAS_DESC == "Gender Identity (Anti-Transgender, Anti-Gender Non-Conforming)", 
+                             "Gender Identity")) %>%
+    mutate(BIAS_DESC = replace(BIAS_DESC, 
+                             BIAS_DESC == "Gender (Anti-Male, Anti-Female)", 
+                             "Gender")) %>%
+    mutate(percent = prop.table(n))
+
+bias_count11$BIAS_DESC <- factor(bias_count11$BIAS_DESC, levels = c("Race", 
+                                                                    "Religion", 
+                                                                    "Sexual Orientation",
+                                                                    "Ethnicity",
+                                                                    "Disability",
+                                                                    "Gender Identity",
+                                                                    "Gender"
+                                                                    ))
+
+f3_2 <- plot_ly(bias_count11, 
+                x = ~BIAS_DESC, 
+                y = ~percent, type = 'bar',
+                color = I("Pale Violet Red 4"),
+                marker = list(colors = colors),
+                marker = list(line = list(color = '#FFFFFF', width = 1)))
+f3_2 <- f3_2 %>% layout(title = 'Figure 3-2: Distribution of US Hate Crime By Bias Category (Bar)',
+                        xaxis = list(title = "Bias Category",
+                                     tickangle = 30),
+                        yaxis = list(title = "Frequency", range = c(0, 0.7)),
+                        margin = c(60, 60, 60, 60))
+f3_2
+```
+
+
+
+```{r figure4, message=FALSE, warning=FALSE}
+
+#By State
+bias_count1 <- bias_count1 %>%
+  group_by(STATE_ABBR,  BIAS_DESC) %>%
+  summarise(n = n()) 
+
+bias_count1 <- bias_count1 %>% 
+  group_by(STATE_ABBR) %>% 
+  mutate(per= prop.table(n))
+bias_count1$STATE_ABBR <- as.factor(bias_count1$STATE_ABBR)
+
+# Categorizing states to regions
+bias_count_region <-bias_count1 %>%
+  mutate(region = case_when(
+    STATE_ABBR %in% c("ME", "NH", "VT", "MA", "CT", "NY", "PA", "NJ", "RI") ~ "Northeast",
+    STATE_ABBR %in% c("DE", "MD", "DC", "VA", "WV", "KY", "TN", "MS", "AL", "GA", "SC", "NC", "FL", "AR", "LA", "TX", "OK", "FS") ~ "South",
+    STATE_ABBR %in% c("ND", "SD", "NB", "KS", "MN", "IA", "MO", "WI", "IL", "MI", "IN", "OH", "NB") ~ "Midwest",
+    STATE_ABBR %in% c("HI", "AK", "GM") ~ "Pacific & US territories",
+    TRUE ~ "West"
+  )
+  ) %>%
+
+# Shorten the name of gender identity and gender subcategory
+  mutate(BIAS_DESC = replace(BIAS_DESC, 
+                             BIAS_DESC == "Gender Identity (Anti-Transgender, Anti-Gender Non-Conforming)", 
+                             "Gender Identity")) %>%
+  mutate(BIAS_DESC = replace(BIAS_DESC, 
+                             BIAS_DESC == "Gender (Anti-Male, Anti-Female)", 
+                             "Gender"))
+
+# calculate relative frequency of crime counts (of each row) grouped by region
+bias_count_region <- bias_count_region %>%
+  group_by(region) %>%
+  mutate(per2 = prop.table(n))
+
+# rearrange levels of bias displayed in bar chart based on their national prevalence
+bias_count_region$BIAS_DESC <- factor(bias_count_region$BIAS_DESC, levels = c("Race", 
+                                                                              "Religion", 
+                                                                              "Sexual Orientation",
+                                                                              "Ethnicity",
+                                                                              "Disability",
+                                                                              "Gender Identity",
+                                                                              "Gender"
+                                                                              ))
+fig4 <- bias_count_region %>%
+  plot_ly(x = ~BIAS_DESC,
+          y = ~per2,
+          type = "bar", 
+          color = I("Pale Violet Red 4"),
+          transforms = list(
+            list(
+              type = "filter",
+              target = ~region,
+              operation = "=",
+              value = unique(bias_count_region$region)[1]
+            )
+          )) %>%
+  hide_colorbar() %>%
+  style(hoverinfo = 'none') %>%
+  layout(title = "Figure 4: Hate Crime Frequency By Region", 
+         xaxis = list(title = "Bias Category"),
+         yaxis = list(title = "Frequency",
+                      range = c(0, 0.7)),
+         margin = c(60, 60, 60, 60),
+         updatemenus = list(
+            list(
+              y = 0,
+              type = "dropdown",
+              active = 0,
+              buttons = list(
+                  list(method = "restyle",
+                       args = list("transforms[0].value", unique(bias_count_region$region)[1]),
+                       label = unique(bias_count_region$region)[1]),
+                  list(method = "restyle",
+                       args = list("transforms[0].value", unique(bias_count_region$region)[2]),
+                       label = unique(bias_count_region$region)[2]),
+                  list(method = "restyle",
+                       args = list("transforms[0].value", unique(bias_count_region$region)[3]),
+                       label = unique(bias_count_region$region)[3]),
+                  list(method = "restyle",
+                       args = list("transforms[0].value", unique(bias_count_region$region)[4]),
+                       label = unique(bias_count_region$region)[4]),
+                  list(method = "restyle",
+                       args = list("transforms[0].value", unique(bias_count_region$region)[5]),
+                       label = unique(bias_count_region$region)[5])
+              )
+            )
+          )
+        )
+         
+
+fig4
+```
+
+![](regionstaticimg.jpg){width=100%}
+
+## Hate Crime Frequency By Bias Category 
+
+Looking into the same data we used in Figure 4, Figure 5 illustrated the distribution of regional hate crimes within each bias category. That is, for each type of bias, how many percent of the total crimes happened in every region? Again using plot_ly, we created a set of bar graphs with a dropdown menu on the left-hand side. Creating this figure allowed us to identify whether a certain region is plagued by a specific type of bias compared to others. Therefore, it can shed some light on the direction of future investigation and policy making. For instance, as shown in Figure 5 below, nearly half of the religion-based hate crimes happened in the Northeast, which may suggest that the Northeast on average faces a higher level of bias towards religion. If this finding is also supported by data from various sources, state governments in the Northeast can reduce hate crimes in their region more efficiently by targeting specifically religious discrimination.
+
+
+```{r figure5}
+# rearrange levels of region in bar graph so that they are more organized
+bias_count_region$region <- factor(bias_count_region$region, levels = c("West", 
+                                                                        "Midwest", 
+                                                                        "Northeast",
+                                                                        "South",
+                                                                       "Pacific & US territories"
+                                                                        ))
+
+# calculate relative frequency of the crime count in each row, grouped by bias type
+bias_count_region <- bias_count_region %>%
+  group_by(BIAS_DESC) %>%
+  mutate(per3 = prop.table(n))
+
+fig5 <- bias_count_region %>%
+  plot_ly(x = ~region,
+          y = ~per3,
+          type = "bar", 
+          color = I("Pale Violet Red 4"),
+          transforms = list(
+            list(
+              type = "filter",
+              target = ~BIAS_DESC,
+              operation = "=",
+              value = unique(bias_count_region$BIAS_DESC)[1]
+            )
+          )) %>%
+  hide_colorbar() %>%
+  style(hoverinfo = 'none') %>%
+  layout(title = "Figure 5: Hate Crime Frequency By Bias Category", 
+         xaxis = list(title = "Region"),
+         yaxis = list(title = "Frequency",
+                      range = c(0, 0.5)),
+         margin = c(60, 60, 60, 60),
+         updatemenus = list(
+            list(
+              y = 0,
+              type = "dropdown",
+              active = 0,
+              buttons = list(
+                  list(method = "restyle",
+                       args = list("transforms[0].value", unique(bias_count_region$BIAS_DESC)[1]),
+                       label = unique(bias_count_region$BIAS_DESC)[1]),
+                  list(method = "restyle",
+                       args = list("transforms[0].value", unique(bias_count_region$BIAS_DESC)[2]),
+                       label = unique(bias_count_region$BIAS_DESC)[2]),
+                  list(method = "restyle",
+                       args = list("transforms[0].value", unique(bias_count_region$BIAS_DESC)[3]),
+                       label = unique(bias_count_region$BIAS_DESC)[3]),
+                  list(method = "restyle",
+                       args = list("transforms[0].value", unique(bias_count_region$BIAS_DESC)[4]),
+                       label = unique(bias_count_region$BIAS_DESC)[4]),
+                  list(method = "restyle",
+                       args = list("transforms[0].value", unique(bias_count_region$BIAS_DESC)[5]),
+                       label = unique(bias_count_region$BIAS_DESC)[5]),
+                  list(method = "restyle",
+                       args = list("transforms[0].value", unique(bias_count_region$BIAS_DESC)[6]),
+                       label = unique(bias_count_region$BIAS_DESC)[6]),
+                  list(method = "restyle",
+                       args = list("transforms[0].value", unique(bias_count_region$BIAS_DESC)[7]),
+                       label = unique(bias_count_region$BIAS_DESC)[7])
+              )
+            )
+          )
+        )
+         
+
+fig5
+```
+
+
+![](biasstaticimg.jpg){width=100%}
+
+
+# References
+
+Disha, Ilir, et al. “Historical Events and Spaces of Hate: Hate Crimes against Arabs and Muslims in Post-9/11 America.” Social Problems, vol. 58, no. 1, 2011, pp. 21–46. JSTOR, https://doi.org/10.1525/sp.2011.58.1.21. Accessed 17 Oct. 2022.
+ 
+Koski, LP.D., Susan V. and Bantley, Esq., Kathleen (2019) "Dog Whistle Politics: The Trump Administration's Influence on Hate Crimes," Seton Hall Legislative Journal: Vol. 44: Iss. 1, Article 2. 
+ 
+Pezzella, F. S., Fetzer, M. D., & Keller, T. (2019). The Dark Figure of Hate Crime Underreporting. American Behavioral Scientist, 0(0). https://doi.org/10.1177/0002764218823844
+
+“Hate Crime Statistics.” Federal Bureau of Investigation, 2020, https://www.fbi.gov/how-we-can-help-you/need-an-fbi-service-or-more-information/ucr/hate-crime
+
+Oudekerk, Barbara. “Hate Crime Statistics Presentation.” 29 March 2019, https://bjs.ojp.gov/content/pub/pdf/hcs1317pp.pdf
+ 
+Garland, J. (2012). Difficulties in defining hate crime victimization. International Review of Victimology, 18(1), 25–37. https://doi.org/10.1177/0269758011422473
+ 
+“US Population By Year.” Multpl, 2022, https://www.multpl.com/united-states-population/table/by-year.
+
+“Census Regions and Divisions of the United States.” U.S. Census Bureau, 2010, https://www.census.gov/geographies/reference-maps/2010/geo/2010-census-regions-and-divisions-of-the-united-states.html
+
+
+
+
+
+# Regression Model (Hate Crime, Education, and Income)
+```{r regression, message=FALSE, warning=FALSE}
+
+# import the education and income data from 2006 to 2020
+income_edu <- read_csv("Income_Edu.csv") %>%
+  select("Year", 
+         "State", 
+         "Median Income", 
+         "High School Degree or Higher (% of State Pop)", 
+         "Bachelor's Degree or Higher (% of State Pop)") %>%
+  filter(Year %in% (2006:2020)) 
+
+# combine the imported data with state level hate crime counts
+hc_reg <- state_crime_count %>%
+  filter(DATA_YEAR %in% (2006:2020)) %>%
+  left_join(income_edu, by = c("STATE_NAME" = "State", "DATA_YEAR" = "Year"))
+
+# scatterplots
+s1 <- hc_reg %>%
+  ggplot(mapping = aes(x = `Median Income`, y = crime_count))+
+  geom_point(color ="Pale Violet Red 4")+
+  labs(x = "Median Income", y = "Hate Crime Count", title = "Plot 1: Median Income and Hate Crime Count")
+s1
+
+s2 <- hc_reg %>%
+  ggplot(mapping = aes(x = `High School Degree or Higher (% of State Pop)`, y = crime_count))+
+  geom_point(color ="Pale Violet Red 4")+
+  labs(x = "High School Degree or Higher (% of State Pop)", 
+       y = "Hate Crime Count", 
+       title = "Plot 2: High School Degree and Hate Crime Count")
+s2
+
+s3 <- hc_reg %>%
+  ggplot(mapping = aes(x = `Bachelor's Degree or Higher (% of State Pop)`, y = crime_count))+
+  geom_point(color ="Pale Violet Red 4")+
+  labs(x = "Bachelor's Degree or Higher (% of State Pop)", 
+       y = "Hate Crime Count", 
+       title = "Plot 3: Bachelor's Degree and Hate Crime Count")
+s3
+
+# model using high school degree as the education variable
+model1 <- lm(crime_count ~ `High School Degree or Higher (% of State Pop)` + `Median Income`, data = hc_reg)
+summary(model1)
+
+# model using bachelor's degree as the education variable
+model2 <- lm(crime_count ~ `Bachelor's Degree or Higher (% of State Pop)` + `Median Income`, data = hc_reg)
+summary(model2)
+
+```

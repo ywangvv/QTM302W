@@ -1,0 +1,22 @@
+Type: Compendium
+Package: QTM 302W Data Descriptor Report
+Title: Impact of Education and Income on Hate Crime Prevalence
+Version: 1.0
+Authors@R: 
+    person("Vanessa", "Wang", , "vanessa.wang@emory.edu", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0000-0000-0000"))
+Description: This project explores the overall distribution of hate crimes in the US
+utilizing the FBI’s Hate Crime dataset.
+License: MIT
+Depends: 
+    kableExtra,
+    knitr,
+    plotly,
+    readr,
+    renv,
+    rmarkdown,
+    rmdformats,
+    tidyverse,
+    usethis
+Encoding: UTF-8
+LazyData: true
