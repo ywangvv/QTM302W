@@ -102,8 +102,8 @@ as we look farther and farther from that city.
 
 - Clone this repo (for help see this
   [tutorial](https://help.github.com/articles/cloning-a-repository/))
-- Raw Data is being kept [here](https://github.com/ywangvv/QTM302W/tree/main/data))
-- Data transformation can be followed through the script [here](https://github.com/ywangvv/QTM302W/tree/main/analysis))
+- Raw Data is being kept [here](https://github.com/ywangvv/QTM302W/tree/main/data)
+- Data transformation can be followed through the script [here](https://github.com/ywangvv/QTM302W/tree/main/analysis)
 - For any issues, please refer to the authors’ contact information below
 
 ## <span id="contact-info">Contact Information</span>
